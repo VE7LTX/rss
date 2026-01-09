@@ -1,0 +1,14 @@
+id: reuters-world
+title: Reuters - World News
+site_url: https://www.reuters.com/world/
+feed_url: https://www.reuters.com/world/rss
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-08"

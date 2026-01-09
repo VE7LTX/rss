@@ -1,0 +1,14 @@
+id: who-news
+title: World Health Organization - News
+site_url: https://www.who.int/
+feed_url: https://www.who.int/rss-feeds/news-english.xml
+format: rss
+category: health_medicine
+tags:
+  - public-health
+  - global
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"
