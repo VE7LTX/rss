@@ -1,0 +1,146 @@
+# RSS Registry & Feed Browser — Primary Categories (v1)
+# Rule: Each feed must pick exactly ONE primary category from this list.
+# Tags handle cross-cutting topics (ai, climate, policy, etc.).
+
+version: 1
+updated: "2026-01-08"
+categories:
+  - id: news_current_affairs
+    title: "News & Current Affairs"
+    description: "Breaking news, ongoing events, geopolitics, public life."
+
+  - id: politics_government
+    title: "Politics & Government"
+    description: "Political coverage, governance, public administration, elections."
+
+  - id: law_courts_regulation
+    title: "Law, Courts & Regulation"
+    description: "Legal analysis, courts, regulatory policy, compliance, rulings."
+
+  - id: international_relations_security
+    title: "International Relations & Security"
+    description: "Diplomacy, national security, defense, intelligence, conflict."
+
+  - id: human_rights_civil_liberties
+    title: "Human Rights & Civil Liberties"
+    description: "Rights, freedoms, civil society, watchdogs, press freedom."
+
+  - id: technology
+    title: "Technology"
+    description: "General tech, software, hardware, platforms, emerging tech."
+
+  - id: software_development
+    title: "Software Development"
+    description: "Programming, engineering practices, languages, frameworks."
+
+  - id: open_source
+    title: "Open Source"
+    description: "FOSS projects, communities, releases, governance."
+
+  - id: ai_ml_data
+    title: "AI, ML & Data"
+    description: "AI, machine learning, data science, analytics, LLMs."
+
+  - id: cybersecurity_privacy
+    title: "Cybersecurity & Privacy"
+    description: "Security research, incidents, defense, privacy, surveillance tech."
+
+  - id: infrastructure_cloud_devops
+    title: "Infrastructure, Cloud & DevOps"
+    description: "Networking, SRE, cloud, tooling, distributed systems, ops."
+
+  - id: engineering_applied_science
+    title: "Engineering & Applied Tech"
+    description: "Robotics, embedded, automation, manufacturing, applied engineering."
+
+  - id: science_research
+    title: "Science & Research"
+    description: "Natural sciences, research news, labs, discoveries, papers."
+
+  - id: health_medicine
+    title: "Health & Medicine"
+    description: "Clinical medicine, public health, health systems, wellness."
+
+  - id: environment_climate
+    title: "Environment & Climate"
+    description: "Climate, ecology, conservation, environmental policy."
+
+  - id: energy_systems
+    title: "Energy Systems"
+    description: "Energy production, grids, markets, policy, oil/gas/nuclear/renewables."
+
+  - id: agriculture_food_systems
+    title: "Agriculture & Food Systems"
+    description: "Farming, fisheries, forestry, food security, land use."
+
+  - id: business_industry
+    title: "Business & Industry"
+    description: "Companies, management, operations, industry news."
+
+  - id: economics_macro_policy
+    title: "Economics & Monetary Policy"
+    description: "Macroeconomics, central banks, inflation, development economics."
+
+  - id: finance_markets
+    title: "Finance & Markets"
+    description: "Markets, investing, trading, banking, personal finance (macro/market)."
+
+  - id: startups_entrepreneurship
+    title: "Startups & Entrepreneurship"
+    description: "Startups, founders, venture, product building, early-stage."
+
+  - id: labor_employment
+    title: "Labor & Employment"
+    description: "Work, wages, unions, labor rights, gig/informal economy."
+
+  - id: international_development_aid
+    title: "International Development & Aid"
+    description: "Development policy, NGOs, humanitarian response, global inequality."
+
+  - id: education_learning
+    title: "Education & Learning"
+    description: "Schools, higher ed, pedagogy, learning resources."
+
+  - id: culture_society
+    title: "Culture & Society"
+    description: "Social issues, demographics, media studies, civic life."
+
+  - id: religion_spirituality
+    title: "Religion & Spirituality"
+    description: "Faith, religious life, religious politics, traditions."
+
+  - id: philosophy_ethics
+    title: "Philosophy & Ethics"
+    description: "Ethics, philosophy, systems thinking, critical theory, futures."
+
+  - id: arts_entertainment
+    title: "Arts & Entertainment"
+    description: "Film, TV, music, books, art, culture coverage."
+
+  - id: gaming
+    title: "Gaming"
+    description: "Video games, esports, game dev, indie, retro."
+
+  - id: internet_digital_culture
+    title: "Internet & Digital Culture"
+    description: "Online communities, social platforms, creator economy, trends."
+
+  - id: transportation_infrastructure
+    title: "Transportation & Infrastructure"
+    description: "Transit, urban planning, aviation, rail, maritime, infrastructure."
+
+  - id: travel_lifestyle
+    title: "Travel & Lifestyle"
+    description: "Travel, food, hobbies, day-to-day living (non-specialist)."
+
+  - id: regional_area_studies
+    title: "Regional & Area Studies"
+    description: "Region-focused coverage spanning multiple domains (not a single country)."
+
+  - id: indigenous_affairs
+    title: "Indigenous Affairs & Knowledge"
+    description: "Indigenous peoples, governance, land stewardship, language preservation."
+
+  - id: meta_misc
+    title: "Meta & Miscellaneous"
+    description: "Cross-domain, mixed feeds, RSS tooling, archival, experimental."

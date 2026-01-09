@@ -1,0 +1,14 @@
+id: nasa-breaking-news
+title: NASA Breaking News
+site_url: https://www.nasa.gov/
+feed_url: https://www.nasa.gov/rss/dyn/breaking_news.rss
+format: rss
+category: science_research
+tags:
+  - space
+  - science
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

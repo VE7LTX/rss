@@ -63,7 +63,27 @@ Think:
 
 ## Repository Structure
 
-rss-registry/ data/ feeds/ categories.yml tags.yml locales.yml scripts/ validate/ build/ dist/ feeds.opml feeds.json feeds.csv indexes/ README.md CONTRIBUTING.md
+```
+rss-registry/
+  data/
+    feeds/
+    categories.yml
+    tags.yml
+    locales.yml
+  docs/
+    schema.md
+  scripts/
+    validate/
+    build/
+  dist/
+    feeds.opml
+    feeds.json
+    feeds.csv
+    indexes/
+  README.md
+  CONTRIBUTING.md
+  NEXT_STEPS.md
+```
 
 ---
 
@@ -80,6 +100,8 @@ Each feed includes:
 - Activity status (derived, not manual)
 
 Feeds are filterable, comparable, and auditable.
+
+Full schema details: [`docs/schema.md`](docs/schema.md).
 
 ---
 
@@ -145,6 +167,12 @@ See CONTRIBUTING.md for details.
 
 Early structure and taxonomy phase.  
 Focus is on getting the model right before building UI.
+
+---
+
+## Next Steps
+
+Detailed notes for the next milestones live in [`NEXT_STEPS.md`](NEXT_STEPS.md).
 
 ---
 
