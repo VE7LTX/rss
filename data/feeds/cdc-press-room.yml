@@ -1,0 +1,14 @@
+id: cdc-press-room
+title: CDC Press Room
+site_url: https://www.cdc.gov/media/
+feed_url: https://tools.cdc.gov/api/v2/resources/media/132608.rss
+format: rss
+category: health_medicine
+tags:
+  - public-health
+  - medicine
+language: en
+region: NA
+source_type: government
+status: active
+added: "2026-01-08"

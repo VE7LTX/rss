@@ -1,0 +1,118 @@
+# RSS Registry & Feed Browser — Locales (v1)
+# Regions use ISO-style codes. Languages use IETF BCP 47.
+
+version: 1
+updated: "2026-01-08"
+
+languages:
+  - code: en
+    name: English
+  - code: es
+    name: Spanish
+  - code: fr
+    name: French
+  - code: ar
+    name: Arabic
+  - code: zh
+    name: Chinese
+  - code: hi
+    name: Hindi
+  - code: pt
+    name: Portuguese
+  - code: ru
+    name: Russian
+  - code: ja
+    name: Japanese
+  - code: de
+    name: German
+  - code: ko
+    name: Korean
+  - code: it
+    name: Italian
+  - code: tr
+    name: Turkish
+  - code: id
+    name: Indonesian
+  - code: vi
+    name: Vietnamese
+  - code: fa
+    name: Persian
+  - code: sw
+    name: Swahili
+  - code: nl
+    name: Dutch
+  - code: pl
+    name: Polish
+  - code: uk
+    name: Ukrainian
+
+regions:
+  - code: AF
+    name: Africa
+  - code: AF-N
+    name: Africa — North
+  - code: AF-W
+    name: Africa — West
+  - code: AF-E
+    name: Africa — East
+  - code: AF-C
+    name: Africa — Central
+  - code: AF-S
+    name: Africa — Southern
+
+  - code: AS
+    name: Asia
+  - code: AS-W
+    name: Asia — West
+  - code: AS-S
+    name: Asia — South
+  - code: AS-E
+    name: Asia — East
+  - code: AS-SE
+    name: Asia — Southeast
+  - code: AS-C
+    name: Asia — Central
+
+  - code: EU
+    name: Europe
+  - code: EU-N
+    name: Europe — North
+  - code: EU-W
+    name: Europe — West
+  - code: EU-E
+    name: Europe — East
+  - code: EU-S
+    name: Europe — South
+
+  - code: NA
+    name: North America
+  - code: NA-N
+    name: North America — North
+  - code: NA-C
+    name: North America — Central
+  - code: NA-CB
+    name: North America — Caribbean
+
+  - code: SA
+    name: South America
+  - code: SA-N
+    name: South America — North
+  - code: SA-S
+    name: South America — South
+
+  - code: OC
+    name: Oceania
+  - code: OC-AU
+    name: Oceania — Australia
+  - code: OC-NZ
+    name: Oceania — New Zealand
+  - code: OC-PI
+    name: Oceania — Pacific Islands
+
+  - code: ME
+    name: Middle East
+  - code: ARCTIC
+    name: Arctic
+
+  - code: GLOBAL
+    name: Global

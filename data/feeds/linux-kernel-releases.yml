@@ -1,0 +1,14 @@
+id: linux-kernel-releases
+title: Linux Kernel Releases
+site_url: https://www.kernel.org/
+feed_url: https://www.kernel.org/feeds/kdist.xml
+format: rss
+category: open_source
+tags:
+  - open-source
+  - infrastructure
+language: en
+region: GLOBAL
+source_type: community
+status: active
+added: "2026-01-08"

@@ -1,0 +1,14 @@
+id: ieee-spectrum
+title: IEEE Spectrum
+site_url: https://spectrum.ieee.org/
+feed_url: https://spectrum.ieee.org/rss/fulltext
+format: rss
+category: engineering_applied_science
+tags:
+  - hardware
+  - research
+language: en
+region: GLOBAL
+source_type: academic
+status: active
+added: "2026-01-08"

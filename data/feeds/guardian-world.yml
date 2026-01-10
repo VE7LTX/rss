@@ -1,0 +1,14 @@
+id: guardian-world
+title: The Guardian - World News
+site_url: https://www.theguardian.com/world
+feed_url: https://www.theguardian.com/world/rss
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: EU
+source_type: publisher
+status: active
+added: "2026-01-08"

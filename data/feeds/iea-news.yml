@@ -1,0 +1,14 @@
+id: iea-news
+title: International Energy Agency - News
+site_url: https://www.iea.org/newsroom
+feed_url: https://www.iea.org/newsroom/news.xml
+format: rss
+category: energy_systems
+tags:
+  - energy
+  - policy
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

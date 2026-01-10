@@ -1,0 +1,350 @@
+# RSS Registry & Feed Browser — Tag Vocabulary (v1)
+# Rule: Tags are multi-select and reused across categories.
+# Keep tags short, lowercase, and non-overlapping.
+
+version: 1
+updated: "2026-01-08"
+tags:
+  - id: ai
+    title: "AI"
+    description: "Artificial intelligence, LLMs, applied AI."
+
+  - id: machine-learning
+    title: "Machine Learning"
+    description: "ML methods, models, and applications."
+
+  - id: data-science
+    title: "Data Science"
+    description: "Data analysis, statistics, modeling, and tooling."
+
+  - id: cybersecurity
+    title: "Cybersecurity"
+    description: "Security research, incidents, and defense."
+
+  - id: privacy
+    title: "Privacy"
+    description: "Privacy policy, surveillance, and data protection."
+
+  - id: open-source
+    title: "Open Source"
+    description: "Open-source projects, communities, and governance."
+
+  - id: cloud
+    title: "Cloud"
+    description: "Cloud platforms, services, and architecture."
+
+  - id: devops
+    title: "DevOps"
+    description: "Operations, automation, CI/CD, and reliability."
+
+  - id: infrastructure
+    title: "Infrastructure"
+    description: "Networking, systems, and large-scale operations."
+
+  - id: hardware
+    title: "Hardware"
+    description: "Devices, chips, embedded systems, and electronics."
+
+  - id: mobile
+    title: "Mobile"
+    description: "Mobile platforms, apps, and ecosystems."
+
+  - id: web
+    title: "Web"
+    description: "Web standards, browsers, and web development."
+
+  - id: software-architecture
+    title: "Software Architecture"
+    description: "Design patterns, system design, and scalability."
+
+  - id: programming-languages
+    title: "Programming Languages"
+    description: "Language design, releases, and usage."
+
+  - id: policy
+    title: "Policy"
+    description: "Policy analysis and governance."
+
+  - id: regulation
+    title: "Regulation"
+    description: "Regulatory updates and compliance."
+
+  - id: law
+    title: "Law"
+    description: "Legal analysis and court rulings."
+
+  - id: politics
+    title: "Politics"
+    description: "Political analysis, elections, and governance."
+
+  - id: elections
+    title: "Elections"
+    description: "Election coverage and voting systems."
+
+  - id: geopolitics
+    title: "Geopolitics"
+    description: "International relations and strategic affairs."
+
+  - id: defense
+    title: "Defense"
+    description: "Defense policy, military affairs, and security."
+
+  - id: intelligence
+    title: "Intelligence"
+    description: "Intelligence community and strategic analysis."
+
+  - id: human-rights
+    title: "Human Rights"
+    description: "Civil liberties, rights advocacy, and justice."
+
+  - id: press-freedom
+    title: "Press Freedom"
+    description: "Media freedom and journalism safety."
+
+  - id: climate
+    title: "Climate"
+    description: "Climate science, impacts, and policy."
+
+  - id: environment
+    title: "Environment"
+    description: "Conservation, ecology, and environmental policy."
+
+  - id: energy
+    title: "Energy"
+    description: "Energy systems, markets, and policy."
+
+  - id: renewables
+    title: "Renewables"
+    description: "Solar, wind, hydro, and clean energy."
+
+  - id: oil-gas
+    title: "Oil & Gas"
+    description: "Fossil energy production and markets."
+
+  - id: nuclear
+    title: "Nuclear"
+    description: "Nuclear energy, policy, and technology."
+
+  - id: agriculture
+    title: "Agriculture"
+    description: "Farming, crops, and agricultural policy."
+
+  - id: food-systems
+    title: "Food Systems"
+    description: "Food security, supply chains, and nutrition."
+
+  - id: fisheries
+    title: "Fisheries"
+    description: "Marine resources and fisheries management."
+
+  - id: forestry
+    title: "Forestry"
+    description: "Forests, logging, and land management."
+
+  - id: public-health
+    title: "Public Health"
+    description: "Population health, health systems, and policy."
+
+  - id: medicine
+    title: "Medicine"
+    description: "Clinical medicine and healthcare delivery."
+
+  - id: mental-health
+    title: "Mental Health"
+    description: "Mental health research and practice."
+
+  - id: economics
+    title: "Economics"
+    description: "Macroeconomics, monetary policy, and analysis."
+
+  - id: finance
+    title: "Finance"
+    description: "Markets, banking, and financial systems."
+
+  - id: markets
+    title: "Markets"
+    description: "Market news, trading, and macro trends."
+
+  - id: startups
+    title: "Startups"
+    description: "Startup ecosystems, founders, and early-stage growth."
+
+  - id: venture-capital
+    title: "Venture Capital"
+    description: "VC firms, funding, and investment trends."
+
+  - id: entrepreneurship
+    title: "Entrepreneurship"
+    description: "Company building and founder stories."
+
+  - id: labor
+    title: "Labor"
+    description: "Labor markets, unions, and worker rights."
+
+  - id: employment
+    title: "Employment"
+    description: "Jobs, wages, and workplace trends."
+
+  - id: development
+    title: "Development"
+    description: "International development policy and practice."
+
+  - id: humanitarian
+    title: "Humanitarian"
+    description: "Humanitarian aid and crisis response."
+
+  - id: education
+    title: "Education"
+    description: "Schools, higher education, and pedagogy."
+
+  - id: research
+    title: "Research"
+    description: "Academic research, publications, and labs."
+
+  - id: science
+    title: "Science"
+    description: "General science coverage and discoveries."
+
+  - id: space
+    title: "Space"
+    description: "Space exploration, astronomy, and satellites."
+
+  - id: biology
+    title: "Biology"
+    description: "Life sciences and biological research."
+
+  - id: psychology
+    title: "Psychology"
+    description: "Psychology research and behavioral science."
+
+  - id: neuroscience
+    title: "Neuroscience"
+    description: "Brain science and neuroscience research."
+
+  - id: mathematics
+    title: "Mathematics"
+    description: "Mathematics research and education."
+
+  - id: journalism
+    title: "Journalism"
+    description: "Media analysis and reporting."
+
+  - id: culture
+    title: "Culture"
+    description: "Culture, society, and civic life."
+
+  - id: history
+    title: "History"
+    description: "Historical analysis and archives."
+
+  - id: religion
+    title: "Religion"
+    description: "Religion, faith, and spiritual practice."
+
+  - id: philosophy
+    title: "Philosophy"
+    description: "Philosophy, ethics, and systems thinking."
+
+  - id: design
+    title: "Design"
+    description: "Design, UX, and visual communication."
+
+  - id: arts
+    title: "Arts"
+    description: "Visual arts, literature, and creative work."
+
+  - id: music
+    title: "Music"
+    description: "Music industry and culture."
+
+  - id: film-tv
+    title: "Film & TV"
+    description: "Film, television, and media coverage."
+
+  - id: games
+    title: "Games"
+    description: "Video games, game dev, and esports."
+
+  - id: digital-culture
+    title: "Digital Culture"
+    description: "Internet culture, platforms, and trends."
+
+  - id: social-media
+    title: "Social Media"
+    description: "Social platforms and creator economy."
+
+  - id: travel
+    title: "Travel"
+    description: "Travel news and guides."
+
+  - id: food-drink
+    title: "Food & Drink"
+    description: "Food, beverage, and culinary culture."
+
+  - id: transportation
+    title: "Transportation"
+    description: "Transit, aviation, rail, and mobility."
+
+  - id: urban-planning
+    title: "Urban Planning"
+    description: "Cities, housing, and infrastructure."
+
+  - id: indigenous
+    title: "Indigenous"
+    description: "Indigenous peoples, governance, and stewardship."
+
+  - id: regional
+    title: "Regional"
+    description: "Region-focused coverage across domains."
+
+  - id: local
+    title: "Local"
+    description: "Local and community coverage."
+
+  - id: global
+    title: "Global"
+    description: "Global and multi-region coverage."
+
+  - id: analysis
+    title: "Analysis"
+    description: "Deep analysis and longform coverage."
+
+  - id: breaking
+    title: "Breaking"
+    description: "Fast updates and breaking news."
+
+  - id: longform
+    title: "Longform"
+    description: "Longform and investigative coverage."
+
+  - id: opinion
+    title: "Opinion"
+    description: "Opinion and commentary."
+
+  - id: academic
+    title: "Academic"
+    description: "Academic institutions and publications."
+
+  - id: government
+    title: "Government"
+    description: "Government agencies and official sources."
+
+  - id: ngo
+    title: "NGO"
+    description: "Non-governmental organizations and nonprofits."
+
+  - id: think-tank
+    title: "Think Tank"
+    description: "Policy institutes and research organizations."
+
+  - id: corporate
+    title: "Corporate"
+    description: "Corporate sources and company blogs."
+
+  - id: community
+    title: "Community"
+    description: "Community organizations and grassroots sources."
+
+  - id: personal
+    title: "Personal"
+    description: "Personal blogs and individual voices."

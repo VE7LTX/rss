@@ -1,0 +1,14 @@
+id: un-news
+title: United Nations News
+site_url: https://news.un.org/
+feed_url: https://news.un.org/feed/subscribe/en/news/all/rss.xml
+format: rss
+category: international_development_aid
+tags:
+  - development
+  - humanitarian
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

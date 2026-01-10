@@ -1,0 +1,14 @@
+id: eff-updates
+title: Electronic Frontier Foundation Updates
+site_url: https://www.eff.org/
+feed_url: https://www.eff.org/rss/updates.xml
+format: rss
+category: human_rights_civil_liberties
+tags:
+  - privacy
+  - human-rights
+language: en
+region: NA
+source_type: ngo
+status: active
+added: "2026-01-08"

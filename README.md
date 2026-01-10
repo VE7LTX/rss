@@ -63,7 +63,35 @@ Think:
 
 ## Repository Structure
 
-rss-registry/ data/ feeds/ categories.yml tags.yml locales.yml scripts/ validate/ build/ dist/ feeds.opml feeds.json feeds.csv indexes/ README.md CONTRIBUTING.md
+```
+rss-registry/
+  data/
+    feeds/
+    categories.yml
+    tags.yml
+    locales.yml
+  docs/
+    schema.md
+    validation.md
+    adding-feeds.md
+    build.md
+    ui.md
+  scripts/
+    validate/
+    build/
+  dist/
+    feeds.opml
+    feeds.json
+    feeds.csv
+    indexes/
+  web/
+    index.html
+    styles.css
+    app.js
+  README.md
+  CONTRIBUTING.md
+  NEXT_STEPS.md
+```
 
 ---
 
@@ -80,6 +108,36 @@ Each feed includes:
 - Activity status (derived, not manual)
 
 Feeds are filterable, comparable, and auditable.
+
+Full schema details: [`docs/schema.md`](docs/schema.md).
+
+---
+
+## Adding Feeds
+
+Guidance for formatting and submission lives in [`docs/adding-feeds.md`](docs/adding-feeds.md).
+
+---
+
+## Validation
+
+A lightweight validation script checks required fields in `data/feeds/`.
+
+Documentation: [`docs/validation.md`](docs/validation.md).
+
+---
+
+## Build Outputs
+
+Export generation and index building are documented in [`docs/build.md`](docs/build.md).
+
+---
+
+## Browser UI Prototype
+
+A static browser prototype lives in `web/`.
+
+Documentation: [`docs/ui.md`](docs/ui.md).
 
 ---
 
@@ -145,6 +203,12 @@ See CONTRIBUTING.md for details.
 
 Early structure and taxonomy phase.  
 Focus is on getting the model right before building UI.
+
+---
+
+## Next Steps
+
+Detailed notes for the next milestones live in [`NEXT_STEPS.md`](NEXT_STEPS.md).
 
 ---
 

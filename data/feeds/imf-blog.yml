@@ -1,0 +1,14 @@
+id: imf-blog
+title: IMF Blog
+site_url: https://www.imf.org/en/Blogs
+feed_url: https://www.imf.org/en/Blogs/rss?category=IMFBlog
+format: rss
+category: economics_macro_policy
+tags:
+  - economics
+  - markets
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

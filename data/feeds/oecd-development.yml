@@ -1,0 +1,14 @@
+id: oecd-development
+title: OECD Development Matters
+site_url: https://oecdecoscope.blog/
+feed_url: https://oecdecoscope.blog/category/development/feed/
+format: rss
+category: international_development_aid
+tags:
+  - development
+  - economics
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

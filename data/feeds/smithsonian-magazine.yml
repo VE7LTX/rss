@@ -1,0 +1,14 @@
+id: smithsonian-magazine
+title: Smithsonian Magazine
+site_url: https://www.smithsonianmag.com/
+feed_url: https://www.smithsonianmag.com/rss/
+format: rss
+category: culture_society
+tags:
+  - history
+  - culture
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-08"

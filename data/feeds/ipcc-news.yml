@@ -1,0 +1,14 @@
+id: ipcc-news
+title: IPCC News
+site_url: https://www.ipcc.ch/
+feed_url: https://www.ipcc.ch/feed/
+format: rss
+category: environment_climate
+tags:
+  - climate
+  - environment
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

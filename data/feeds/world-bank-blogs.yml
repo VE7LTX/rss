@@ -1,0 +1,14 @@
+id: world-bank-blogs
+title: World Bank Blogs
+site_url: https://blogs.worldbank.org/
+feed_url: https://blogs.worldbank.org/rss
+format: rss
+category: economics_macro_policy
+tags:
+  - economics
+  - development
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

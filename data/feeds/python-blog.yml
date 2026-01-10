@@ -1,0 +1,14 @@
+id: python-blog
+title: Python Blog
+site_url: https://www.python.org/
+feed_url: https://www.python.org/blogs/rss/
+format: rss
+category: software_development
+tags:
+  - programming-languages
+  - open-source
+language: en
+region: GLOBAL
+source_type: community
+status: active
+added: "2026-01-08"

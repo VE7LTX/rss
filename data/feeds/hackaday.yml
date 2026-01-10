@@ -1,0 +1,14 @@
+id: hackaday
+title: Hackaday
+site_url: https://hackaday.com/
+feed_url: https://hackaday.com/blog/feed/
+format: rss
+category: engineering_applied_science
+tags:
+  - hardware
+  - design
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-08"

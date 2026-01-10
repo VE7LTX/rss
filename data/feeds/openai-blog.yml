@@ -1,0 +1,14 @@
+id: openai-blog
+title: OpenAI Blog
+site_url: https://openai.com/blog/
+feed_url: https://openai.com/blog/rss/
+format: rss
+category: ai_ml_data
+tags:
+  - ai
+  - research
+language: en
+region: NA
+source_type: corporate
+status: active
+added: "2026-01-08"

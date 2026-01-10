@@ -1,0 +1,14 @@
+id: mit-news
+title: MIT News
+site_url: https://news.mit.edu/
+feed_url: https://news.mit.edu/rss
+format: rss
+category: science_research
+tags:
+  - research
+  - science
+language: en
+region: NA
+source_type: academic
+status: active
+added: "2026-01-08"

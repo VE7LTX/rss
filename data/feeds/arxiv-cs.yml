@@ -1,0 +1,14 @@
+id: arxiv-cs
+title: arXiv.org - Computer Science
+site_url: https://arxiv.org/
+feed_url: https://export.arxiv.org/rss/cs
+format: rss
+category: science_research
+tags:
+  - research
+  - academic
+language: en
+region: GLOBAL
+source_type: academic
+status: active
+added: "2026-01-08"

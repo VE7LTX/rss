@@ -1,0 +1,14 @@
+id: unesco-news
+title: UNESCO News
+site_url: https://www.unesco.org/en
+feed_url: https://www.unesco.org/en/rss.xml
+format: rss
+category: education_learning
+tags:
+  - education
+  - development
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-08"

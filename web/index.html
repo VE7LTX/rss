@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RSS Registry Browser (Prototype)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>RSS Registry Browser</h1>
+        <p>Prototype faceted browser for the feed registry.</p>
+      </div>
+      <div class="stats" id="stats">Loading feeds…</div>
+    </header>
+
+    <main class="layout">
+      <section class="filters">
+        <div class="filter-block">
+          <label for="category">Category</label>
+          <select id="category">
+            <option value="">All categories</option>
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="tag">Tag</label>
+          <select id="tag">
+            <option value="">All tags</option>
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="region">Region</label>
+          <select id="region">
+            <option value="">All regions</option>
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="sourceType">Source Type</label>
+          <select id="sourceType">
+            <option value="">All sources</option>
+          </select>
+        </div>
+        <div class="filter-block">
+          <label for="search">Search</label>
+          <input id="search" type="search" placeholder="Search title or id" />
+        </div>
+      </section>
+
+      <section class="results">
+        <div class="results-header">
+          <h2>Feeds</h2>
+          <p id="resultsCount">0 results</p>
+        </div>
+        <div id="emptyState" class="empty-state" hidden></div>
+        <div id="results" class="cards"></div>
+      </section>
+
+      <aside class="my-feeds">
+        <div class="my-feeds-header">
+          <div>
+            <h2>My Feeds</h2>
+            <p id="myFeedsCount">0 selected</p>
+          </div>
+          <button id="refreshMyFeeds" type="button">Refresh</button>
+        </div>
+        <p class="my-feeds-note">
+          Picks are saved locally in your browser. Refresh pulls the latest items from each
+          feed when possible.
+        </p>
+        <div id="myFeedsList" class="my-feeds-list"></div>
+      </aside>
+    </main>
+
+    <template id="cardTemplate">
+      <article class="card">
+        <div class="card-header">
+          <h3 class="card-title"></h3>
+          <span class="badge"></span>
+        </div>
+        <p class="card-meta"></p>
+        <div class="card-tags"></div>
+        <div class="card-links"></div>
+        <div class="card-actions">
+          <button type="button" class="add-feed">Add to My Feeds</button>
+        </div>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
