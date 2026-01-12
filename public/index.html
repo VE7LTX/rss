@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RSS Registry Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient"></div>
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">RSS Encyclopedia Registry</p>
+        <h1>Browse feeds like a catalog, not a maze.</h1>
+        <p class="lead">
+          Filter, shortlist, and preview sources across domains. This prototype
+          uses the registry data to power a fast, faceted browsing experience.
+        </p>
+      </div>
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <p class="card-title">Registry Pulse</p>
+          <p class="card-stat" id="stat-count">0 feeds</p>
+          <p class="card-meta">Generated from data/vocab + feeds.</p>
+          <div class="card-tags" id="stat-tags"></div>
+        </div>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="panel filters">
+        <h2>Filters</h2>
+        <label class="field">
+          <span>Search</span>
+          <input type="search" id="search" placeholder="Search titles or tags" />
+        </label>
+
+        <label class="field">
+          <span>Category</span>
+          <select id="category"></select>
+        </label>
+
+        <label class="field">
+          <span>Region</span>
+          <select id="region"></select>
+        </label>
+
+        <label class="field">
+          <span>Source Type</span>
+          <select id="sourceType"></select>
+        </label>
+
+        <div class="field">
+          <span>Tags</span>
+          <div id="tagBank" class="tag-bank"></div>
+        </div>
+
+        <button class="ghost" id="clearFilters">Clear Filters</button>
+      </section>
+
+      <section class="panel results">
+        <div class="panel-head">
+          <h2>Feed Catalog</h2>
+          <span class="count" id="resultCount">0</span>
+        </div>
+        <div class="feed-grid" id="feedGrid"></div>
+      </section>
+
+      <section class="panel selected">
+        <div class="panel-head">
+          <h2>My Feeds</h2>
+          <span class="count" id="selectedCount">0</span>
+        </div>
+        <div id="selectedList" class="selected-list"></div>
+      </section>
+
+      <section class="panel updates">
+        <div class="panel-head">
+          <h2>Live Updates (Demo)</h2>
+          <button class="ghost" id="refreshUpdates">Refresh</button>
+        </div>
+        <div id="updatesList" class="updates-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Prototype build ? Generated output in dist/ ? No external services required.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

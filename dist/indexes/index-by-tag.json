@@ -1,0 +1,52 @@
+{
+  "breaking": [
+    "associated-press-top-news",
+    "bbc-world",
+    "reuters-world"
+  ],
+  "global": [
+    "associated-press-top-news",
+    "bbc-world",
+    "reuters-world",
+    "who-news"
+  ],
+  "infrastructure": [
+    "cloudflare-blog"
+  ],
+  "cybersecurity": [
+    "cloudflare-blog"
+  ],
+  "privacy": [
+    "eff-updates"
+  ],
+  "human-rights": [
+    "eff-updates"
+  ],
+  "agriculture": [
+    "fao-news"
+  ],
+  "food-systems": [
+    "fao-news"
+  ],
+  "hardware": [
+    "ieee-spectrum"
+  ],
+  "research": [
+    "ieee-spectrum"
+  ],
+  "space": [
+    "nasa-breaking-news"
+  ],
+  "science": [
+    "nasa-breaking-news"
+  ],
+  "development": [
+    "oecd-development"
+  ],
+  "economics": [
+    "oecd-development"
+  ],
+  "public-health": [
+    "who-news"
+  ]
+}

@@ -1,0 +1,11 @@
+id,title,site_url,feed_url,format,category,tags,language,region,source_type,status,added
+associated-press-top-news,Associated Press Top News,https://apnews.com/,https://apnews.com/apf-topnews,rss,news_current_affairs,breaking|global,en,GLOBAL,publisher,active,2026-01-08
+bbc-world,BBC News - World,https://www.bbc.com/news,https://feeds.bbci.co.uk/news/world/rss.xml,rss,news_current_affairs,global|breaking,en,GLOBAL,publisher,active,2026-01-08
+cloudflare-blog,The Cloudflare Blog,https://blog.cloudflare.com/,https://blog.cloudflare.com/rss/,rss,infrastructure_cloud_devops,infrastructure|cybersecurity,en,GLOBAL,corporate,active,2026-01-08
+eff-updates,Electronic Frontier Foundation Updates,https://www.eff.org/,https://www.eff.org/rss/updates.xml,rss,human_rights_civil_liberties,privacy|human-rights,en,NA,ngo,active,2026-01-08
+fao-news,FAO News,https://www.fao.org/,https://www.fao.org/feeds/news/en/rss.xml,rss,agriculture_food_systems,agriculture|food-systems,en,GLOBAL,government,active,2026-01-08
+ieee-spectrum,IEEE Spectrum,https://spectrum.ieee.org/,https://spectrum.ieee.org/rss/fulltext,rss,engineering_applied_science,hardware|research,en,GLOBAL,academic,active,2026-01-08
+nasa-breaking-news,NASA Breaking News,https://www.nasa.gov/,https://www.nasa.gov/rss/dyn/breaking_news.rss,rss,science_research,space|science,en,GLOBAL,government,active,2026-01-08
+oecd-development,OECD Development Matters,https://oecdecoscope.blog/,https://oecdecoscope.blog/category/development/feed/,rss,international_development_aid,development|economics,en,GLOBAL,government,active,2026-01-08
+reuters-world,Reuters - World News,https://www.reuters.com/world/,https://www.reuters.com/world/rss,rss,news_current_affairs,global|breaking,en,GLOBAL,publisher,active,2026-01-08
+who-news,World Health Organization - News,https://www.who.int/,https://www.who.int/rss-feeds/news-english.xml,rss,health_medicine,public-health|global,en,GLOBAL,government,active,2026-01-08

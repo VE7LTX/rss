@@ -1,0 +1,16 @@
+{
+  "GLOBAL": [
+    "associated-press-top-news",
+    "bbc-world",
+    "cloudflare-blog",
+    "fao-news",
+    "ieee-spectrum",
+    "nasa-breaking-news",
+    "oecd-development",
+    "reuters-world",
+    "who-news"
+  ],
+  "NA": [
+    "eff-updates"
+  ]
+}

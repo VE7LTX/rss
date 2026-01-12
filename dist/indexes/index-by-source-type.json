@@ -1,0 +1,22 @@
+{
+  "publisher": [
+    "associated-press-top-news",
+    "bbc-world",
+    "reuters-world"
+  ],
+  "corporate": [
+    "cloudflare-blog"
+  ],
+  "ngo": [
+    "eff-updates"
+  ],
+  "government": [
+    "fao-news",
+    "nasa-breaking-news",
+    "oecd-development",
+    "who-news"
+  ],
+  "academic": [
+    "ieee-spectrum"
+  ]
+}

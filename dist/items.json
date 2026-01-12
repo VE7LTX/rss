@@ -1,0 +1,162 @@
+[
+  {
+    "feed_id": "associated-press-top-news",
+    "feed_title": "Associated Press Top News",
+    "title": "Associated Press Top News sample update 1",
+    "url": "https://apnews.com/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bbc-world",
+    "feed_title": "BBC News - World",
+    "title": "BBC News - World sample update 1",
+    "url": "https://www.bbc.com/news",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cloudflare-blog",
+    "feed_title": "The Cloudflare Blog",
+    "title": "The Cloudflare Blog sample update 1",
+    "url": "https://blog.cloudflare.com/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "eff-updates",
+    "feed_title": "Electronic Frontier Foundation Updates",
+    "title": "Electronic Frontier Foundation Updates sample update 1",
+    "url": "https://www.eff.org/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "fao-news",
+    "feed_title": "FAO News",
+    "title": "FAO News sample update 1",
+    "url": "https://www.fao.org/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ieee-spectrum",
+    "feed_title": "IEEE Spectrum",
+    "title": "IEEE Spectrum sample update 1",
+    "url": "https://spectrum.ieee.org/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nasa-breaking-news",
+    "feed_title": "NASA Breaking News",
+    "title": "NASA Breaking News sample update 1",
+    "url": "https://www.nasa.gov/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "oecd-development",
+    "feed_title": "OECD Development Matters",
+    "title": "OECD Development Matters sample update 1",
+    "url": "https://oecdecoscope.blog/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "reuters-world",
+    "feed_title": "Reuters - World News",
+    "title": "Reuters - World News sample update 1",
+    "url": "https://www.reuters.com/world/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "who-news",
+    "feed_title": "World Health Organization - News",
+    "title": "World Health Organization - News sample update 1",
+    "url": "https://www.who.int/",
+    "published": "2026-01-12T21:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "associated-press-top-news",
+    "feed_title": "Associated Press Top News",
+    "title": "Associated Press Top News sample update 2",
+    "url": "https://apnews.com/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bbc-world",
+    "feed_title": "BBC News - World",
+    "title": "BBC News - World sample update 2",
+    "url": "https://www.bbc.com/news",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cloudflare-blog",
+    "feed_title": "The Cloudflare Blog",
+    "title": "The Cloudflare Blog sample update 2",
+    "url": "https://blog.cloudflare.com/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "eff-updates",
+    "feed_title": "Electronic Frontier Foundation Updates",
+    "title": "Electronic Frontier Foundation Updates sample update 2",
+    "url": "https://www.eff.org/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "fao-news",
+    "feed_title": "FAO News",
+    "title": "FAO News sample update 2",
+    "url": "https://www.fao.org/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ieee-spectrum",
+    "feed_title": "IEEE Spectrum",
+    "title": "IEEE Spectrum sample update 2",
+    "url": "https://spectrum.ieee.org/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nasa-breaking-news",
+    "feed_title": "NASA Breaking News",
+    "title": "NASA Breaking News sample update 2",
+    "url": "https://www.nasa.gov/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "oecd-development",
+    "feed_title": "OECD Development Matters",
+    "title": "OECD Development Matters sample update 2",
+    "url": "https://oecdecoscope.blog/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "reuters-world",
+    "feed_title": "Reuters - World News",
+    "title": "Reuters - World News sample update 2",
+    "url": "https://www.reuters.com/world/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "who-news",
+    "feed_title": "World Health Organization - News",
+    "title": "World Health Organization - News sample update 2",
+    "url": "https://www.who.int/",
+    "published": "2026-01-12T15:30:37.812961Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  }
+]

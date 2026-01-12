@@ -1,0 +1,28 @@
+{
+  "news_current_affairs": [
+    "associated-press-top-news",
+    "bbc-world",
+    "reuters-world"
+  ],
+  "infrastructure_cloud_devops": [
+    "cloudflare-blog"
+  ],
+  "human_rights_civil_liberties": [
+    "eff-updates"
+  ],
+  "agriculture_food_systems": [
+    "fao-news"
+  ],
+  "engineering_applied_science": [
+    "ieee-spectrum"
+  ],
+  "science_research": [
+    "nasa-breaking-news"
+  ],
+  "international_development_aid": [
+    "oecd-development"
+  ],
+  "health_medicine": [
+    "who-news"
+  ]
+}

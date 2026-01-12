@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+  <head>
+    <title>RSS Registry</title>
+  </head>
+  <body>
+    <outline text="Associated Press Top News" title="Associated Press Top News" type="rss" xmlUrl="https://apnews.com/apf-topnews" htmlUrl="https://apnews.com/" category="news_current_affairs" />
+    <outline text="BBC News - World" title="BBC News - World" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news" category="news_current_affairs" />
+    <outline text="The Cloudflare Blog" title="The Cloudflare Blog" type="rss" xmlUrl="https://blog.cloudflare.com/rss/" htmlUrl="https://blog.cloudflare.com/" category="infrastructure_cloud_devops" />
+    <outline text="Electronic Frontier Foundation Updates" title="Electronic Frontier Foundation Updates" type="rss" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/" category="human_rights_civil_liberties" />
+    <outline text="FAO News" title="FAO News" type="rss" xmlUrl="https://www.fao.org/feeds/news/en/rss.xml" htmlUrl="https://www.fao.org/" category="agriculture_food_systems" />
+    <outline text="IEEE Spectrum" title="IEEE Spectrum" type="rss" xmlUrl="https://spectrum.ieee.org/rss/fulltext" htmlUrl="https://spectrum.ieee.org/" category="engineering_applied_science" />
+    <outline text="NASA Breaking News" title="NASA Breaking News" type="rss" xmlUrl="https://www.nasa.gov/rss/dyn/breaking_news.rss" htmlUrl="https://www.nasa.gov/" category="science_research" />
+    <outline text="OECD Development Matters" title="OECD Development Matters" type="rss" xmlUrl="https://oecdecoscope.blog/category/development/feed/" htmlUrl="https://oecdecoscope.blog/" category="international_development_aid" />
+    <outline text="Reuters - World News" title="Reuters - World News" type="rss" xmlUrl="https://www.reuters.com/world/rss" htmlUrl="https://www.reuters.com/world/" category="news_current_affairs" />
+    <outline text="World Health Organization - News" title="World Health Organization - News" type="rss" xmlUrl="https://www.who.int/rss-feeds/news-english.xml" htmlUrl="https://www.who.int/" category="health_medicine" />
+  </body>
+</opml>

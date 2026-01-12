@@ -1,0 +1,1062 @@
+{
+  "generated_at": "2026-01-12T21:30:37.807961Z",
+  "categories": [
+    {
+      "id": "news_current_affairs",
+      "title": "News & Current Affairs",
+      "description": "Breaking news, ongoing events, geopolitics, public life."
+    },
+    {
+      "id": "politics_government",
+      "title": "Politics & Government",
+      "description": "Political coverage, governance, public administration, elections."
+    },
+    {
+      "id": "law_courts_regulation",
+      "title": "Law, Courts & Regulation",
+      "description": "Legal analysis, courts, regulatory policy, compliance, rulings."
+    },
+    {
+      "id": "international_relations_security",
+      "title": "International Relations & Security",
+      "description": "Diplomacy, national security, defense, intelligence, conflict."
+    },
+    {
+      "id": "human_rights_civil_liberties",
+      "title": "Human Rights & Civil Liberties",
+      "description": "Rights, freedoms, civil society, watchdogs, press freedom."
+    },
+    {
+      "id": "technology",
+      "title": "Technology",
+      "description": "General tech, software, hardware, platforms, emerging tech."
+    },
+    {
+      "id": "software_development",
+      "title": "Software Development",
+      "description": "Programming, engineering practices, languages, frameworks."
+    },
+    {
+      "id": "open_source",
+      "title": "Open Source",
+      "description": "FOSS projects, communities, releases, governance."
+    },
+    {
+      "id": "ai_ml_data",
+      "title": "AI, ML & Data",
+      "description": "AI, machine learning, data science, analytics, LLMs."
+    },
+    {
+      "id": "cybersecurity_privacy",
+      "title": "Cybersecurity & Privacy",
+      "description": "Security research, incidents, defense, privacy, surveillance tech."
+    },
+    {
+      "id": "infrastructure_cloud_devops",
+      "title": "Infrastructure, Cloud & DevOps",
+      "description": "Networking, SRE, cloud, tooling, distributed systems, ops."
+    },
+    {
+      "id": "engineering_applied_science",
+      "title": "Engineering & Applied Tech",
+      "description": "Robotics, embedded, automation, manufacturing, applied engineering."
+    },
+    {
+      "id": "science_research",
+      "title": "Science & Research",
+      "description": "Natural sciences, research news, labs, discoveries, papers."
+    },
+    {
+      "id": "health_medicine",
+      "title": "Health & Medicine",
+      "description": "Clinical medicine, public health, health systems, wellness."
+    },
+    {
+      "id": "environment_climate",
+      "title": "Environment & Climate",
+      "description": "Climate, ecology, conservation, environmental policy."
+    },
+    {
+      "id": "energy_systems",
+      "title": "Energy Systems",
+      "description": "Energy production, grids, markets, policy, oil/gas/nuclear/renewables."
+    },
+    {
+      "id": "agriculture_food_systems",
+      "title": "Agriculture & Food Systems",
+      "description": "Farming, fisheries, forestry, food security, land use."
+    },
+    {
+      "id": "business_industry",
+      "title": "Business & Industry",
+      "description": "Companies, management, operations, industry news."
+    },
+    {
+      "id": "economics_macro_policy",
+      "title": "Economics & Monetary Policy",
+      "description": "Macroeconomics, central banks, inflation, development economics."
+    },
+    {
+      "id": "finance_markets",
+      "title": "Finance & Markets",
+      "description": "Markets, investing, trading, banking, personal finance (macro/market)."
+    },
+    {
+      "id": "startups_entrepreneurship",
+      "title": "Startups & Entrepreneurship",
+      "description": "Startups, founders, venture, product building, early-stage."
+    },
+    {
+      "id": "labor_employment",
+      "title": "Labor & Employment",
+      "description": "Work, wages, unions, labor rights, gig/informal economy."
+    },
+    {
+      "id": "international_development_aid",
+      "title": "International Development & Aid",
+      "description": "Development policy, NGOs, humanitarian response, global inequality."
+    },
+    {
+      "id": "education_learning",
+      "title": "Education & Learning",
+      "description": "Schools, higher ed, pedagogy, learning resources."
+    },
+    {
+      "id": "culture_society",
+      "title": "Culture & Society",
+      "description": "Social issues, demographics, media studies, civic life."
+    },
+    {
+      "id": "religion_spirituality",
+      "title": "Religion & Spirituality",
+      "description": "Faith, religious life, religious politics, traditions."
+    },
+    {
+      "id": "philosophy_ethics",
+      "title": "Philosophy & Ethics",
+      "description": "Ethics, philosophy, systems thinking, critical theory, futures."
+    },
+    {
+      "id": "arts_entertainment",
+      "title": "Arts & Entertainment",
+      "description": "Film, TV, music, books, art, culture coverage."
+    },
+    {
+      "id": "gaming",
+      "title": "Gaming",
+      "description": "Video games, esports, game dev, indie, retro."
+    },
+    {
+      "id": "internet_digital_culture",
+      "title": "Internet & Digital Culture",
+      "description": "Online communities, social platforms, creator economy, trends."
+    },
+    {
+      "id": "transportation_infrastructure",
+      "title": "Transportation & Infrastructure",
+      "description": "Transit, urban planning, aviation, rail, maritime, infrastructure."
+    },
+    {
+      "id": "travel_lifestyle",
+      "title": "Travel & Lifestyle",
+      "description": "Travel, food, hobbies, day-to-day living (non-specialist)."
+    },
+    {
+      "id": "regional_area_studies",
+      "title": "Regional & Area Studies",
+      "description": "Region-focused coverage spanning multiple domains (not a single country)."
+    },
+    {
+      "id": "indigenous_affairs",
+      "title": "Indigenous Affairs & Knowledge",
+      "description": "Indigenous peoples, governance, land stewardship, language preservation."
+    },
+    {
+      "id": "meta_misc",
+      "title": "Meta & Miscellaneous",
+      "description": "Cross-domain, mixed feeds, RSS tooling, archival, experimental."
+    }
+  ],
+  "tags": [
+    {
+      "id": "ai",
+      "title": "AI",
+      "description": "Artificial intelligence, LLMs, applied AI."
+    },
+    {
+      "id": "machine-learning",
+      "title": "Machine Learning",
+      "description": "ML methods, models, and applications."
+    },
+    {
+      "id": "data-science",
+      "title": "Data Science",
+      "description": "Data analysis, statistics, modeling, and tooling."
+    },
+    {
+      "id": "cybersecurity",
+      "title": "Cybersecurity",
+      "description": "Security research, incidents, and defense."
+    },
+    {
+      "id": "privacy",
+      "title": "Privacy",
+      "description": "Privacy policy, surveillance, and data protection."
+    },
+    {
+      "id": "open-source",
+      "title": "Open Source",
+      "description": "Open-source projects, communities, and governance."
+    },
+    {
+      "id": "cloud",
+      "title": "Cloud",
+      "description": "Cloud platforms, services, and architecture."
+    },
+    {
+      "id": "devops",
+      "title": "DevOps",
+      "description": "Operations, automation, CI/CD, and reliability."
+    },
+    {
+      "id": "infrastructure",
+      "title": "Infrastructure",
+      "description": "Networking, systems, and large-scale operations."
+    },
+    {
+      "id": "hardware",
+      "title": "Hardware",
+      "description": "Devices, chips, embedded systems, and electronics."
+    },
+    {
+      "id": "mobile",
+      "title": "Mobile",
+      "description": "Mobile platforms, apps, and ecosystems."
+    },
+    {
+      "id": "web",
+      "title": "Web",
+      "description": "Web standards, browsers, and web development."
+    },
+    {
+      "id": "software-architecture",
+      "title": "Software Architecture",
+      "description": "Design patterns, system design, and scalability."
+    },
+    {
+      "id": "programming-languages",
+      "title": "Programming Languages",
+      "description": "Language design, releases, and usage."
+    },
+    {
+      "id": "policy",
+      "title": "Policy",
+      "description": "Policy analysis and governance."
+    },
+    {
+      "id": "regulation",
+      "title": "Regulation",
+      "description": "Regulatory updates and compliance."
+    },
+    {
+      "id": "law",
+      "title": "Law",
+      "description": "Legal analysis and court rulings."
+    },
+    {
+      "id": "politics",
+      "title": "Politics",
+      "description": "Political analysis, elections, and governance."
+    },
+    {
+      "id": "elections",
+      "title": "Elections",
+      "description": "Election coverage and voting systems."
+    },
+    {
+      "id": "geopolitics",
+      "title": "Geopolitics",
+      "description": "International relations and strategic affairs."
+    },
+    {
+      "id": "defense",
+      "title": "Defense",
+      "description": "Defense policy, military affairs, and security."
+    },
+    {
+      "id": "intelligence",
+      "title": "Intelligence",
+      "description": "Intelligence community and strategic analysis."
+    },
+    {
+      "id": "human-rights",
+      "title": "Human Rights",
+      "description": "Civil liberties, rights advocacy, and justice."
+    },
+    {
+      "id": "press-freedom",
+      "title": "Press Freedom",
+      "description": "Media freedom and journalism safety."
+    },
+    {
+      "id": "climate",
+      "title": "Climate",
+      "description": "Climate science, impacts, and policy."
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "description": "Conservation, ecology, and environmental policy."
+    },
+    {
+      "id": "energy",
+      "title": "Energy",
+      "description": "Energy systems, markets, and policy."
+    },
+    {
+      "id": "renewables",
+      "title": "Renewables",
+      "description": "Solar, wind, hydro, and clean energy."
+    },
+    {
+      "id": "oil-gas",
+      "title": "Oil & Gas",
+      "description": "Fossil energy production and markets."
+    },
+    {
+      "id": "nuclear",
+      "title": "Nuclear",
+      "description": "Nuclear energy, policy, and technology."
+    },
+    {
+      "id": "agriculture",
+      "title": "Agriculture",
+      "description": "Farming, crops, and agricultural policy."
+    },
+    {
+      "id": "food-systems",
+      "title": "Food Systems",
+      "description": "Food security, supply chains, and nutrition."
+    },
+    {
+      "id": "fisheries",
+      "title": "Fisheries",
+      "description": "Marine resources and fisheries management."
+    },
+    {
+      "id": "forestry",
+      "title": "Forestry",
+      "description": "Forests, logging, and land management."
+    },
+    {
+      "id": "public-health",
+      "title": "Public Health",
+      "description": "Population health, health systems, and policy."
+    },
+    {
+      "id": "medicine",
+      "title": "Medicine",
+      "description": "Clinical medicine and healthcare delivery."
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental Health",
+      "description": "Mental health research and practice."
+    },
+    {
+      "id": "economics",
+      "title": "Economics",
+      "description": "Macroeconomics, monetary policy, and analysis."
+    },
+    {
+      "id": "finance",
+      "title": "Finance",
+      "description": "Markets, banking, and financial systems."
+    },
+    {
+      "id": "markets",
+      "title": "Markets",
+      "description": "Market news, trading, and macro trends."
+    },
+    {
+      "id": "startups",
+      "title": "Startups",
+      "description": "Startup ecosystems, founders, and early-stage growth."
+    },
+    {
+      "id": "venture-capital",
+      "title": "Venture Capital",
+      "description": "VC firms, funding, and investment trends."
+    },
+    {
+      "id": "entrepreneurship",
+      "title": "Entrepreneurship",
+      "description": "Company building and founder stories."
+    },
+    {
+      "id": "labor",
+      "title": "Labor",
+      "description": "Labor markets, unions, and worker rights."
+    },
+    {
+      "id": "employment",
+      "title": "Employment",
+      "description": "Jobs, wages, and workplace trends."
+    },
+    {
+      "id": "development",
+      "title": "Development",
+      "description": "International development policy and practice."
+    },
+    {
+      "id": "humanitarian",
+      "title": "Humanitarian",
+      "description": "Humanitarian aid and crisis response."
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "description": "Schools, higher education, and pedagogy."
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "description": "Academic research, publications, and labs."
+    },
+    {
+      "id": "science",
+      "title": "Science",
+      "description": "General science coverage and discoveries."
+    },
+    {
+      "id": "space",
+      "title": "Space",
+      "description": "Space exploration, astronomy, and satellites."
+    },
+    {
+      "id": "biology",
+      "title": "Biology",
+      "description": "Life sciences and biological research."
+    },
+    {
+      "id": "psychology",
+      "title": "Psychology",
+      "description": "Psychology research and behavioral science."
+    },
+    {
+      "id": "neuroscience",
+      "title": "Neuroscience",
+      "description": "Brain science and neuroscience research."
+    },
+    {
+      "id": "mathematics",
+      "title": "Mathematics",
+      "description": "Mathematics research and education."
+    },
+    {
+      "id": "journalism",
+      "title": "Journalism",
+      "description": "Media analysis and reporting."
+    },
+    {
+      "id": "culture",
+      "title": "Culture",
+      "description": "Culture, society, and civic life."
+    },
+    {
+      "id": "history",
+      "title": "History",
+      "description": "Historical analysis and archives."
+    },
+    {
+      "id": "religion",
+      "title": "Religion",
+      "description": "Religion, faith, and spiritual practice."
+    },
+    {
+      "id": "philosophy",
+      "title": "Philosophy",
+      "description": "Philosophy, ethics, and systems thinking."
+    },
+    {
+      "id": "design",
+      "title": "Design",
+      "description": "Design, UX, and visual communication."
+    },
+    {
+      "id": "arts",
+      "title": "Arts",
+      "description": "Visual arts, literature, and creative work."
+    },
+    {
+      "id": "music",
+      "title": "Music",
+      "description": "Music industry and culture."
+    },
+    {
+      "id": "film-tv",
+      "title": "Film & TV",
+      "description": "Film, television, and media coverage."
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "description": "Video games, game dev, and esports."
+    },
+    {
+      "id": "digital-culture",
+      "title": "Digital Culture",
+      "description": "Internet culture, platforms, and trends."
+    },
+    {
+      "id": "social-media",
+      "title": "Social Media",
+      "description": "Social platforms and creator economy."
+    },
+    {
+      "id": "travel",
+      "title": "Travel",
+      "description": "Travel news and guides."
+    },
+    {
+      "id": "food-drink",
+      "title": "Food & Drink",
+      "description": "Food, beverage, and culinary culture."
+    },
+    {
+      "id": "transportation",
+      "title": "Transportation",
+      "description": "Transit, aviation, rail, and mobility."
+    },
+    {
+      "id": "urban-planning",
+      "title": "Urban Planning",
+      "description": "Cities, housing, and infrastructure."
+    },
+    {
+      "id": "indigenous",
+      "title": "Indigenous",
+      "description": "Indigenous peoples, governance, and stewardship."
+    },
+    {
+      "id": "regional",
+      "title": "Regional",
+      "description": "Region-focused coverage across domains."
+    },
+    {
+      "id": "local",
+      "title": "Local",
+      "description": "Local and community coverage."
+    },
+    {
+      "id": "global",
+      "title": "Global",
+      "description": "Global and multi-region coverage."
+    },
+    {
+      "id": "analysis",
+      "title": "Analysis",
+      "description": "Deep analysis and longform coverage."
+    },
+    {
+      "id": "breaking",
+      "title": "Breaking",
+      "description": "Fast updates and breaking news."
+    },
+    {
+      "id": "longform",
+      "title": "Longform",
+      "description": "Longform and investigative coverage."
+    },
+    {
+      "id": "opinion",
+      "title": "Opinion",
+      "description": "Opinion and commentary."
+    },
+    {
+      "id": "academic",
+      "title": "Academic",
+      "description": "Academic institutions and publications."
+    },
+    {
+      "id": "government",
+      "title": "Government",
+      "description": "Government agencies and official sources."
+    },
+    {
+      "id": "ngo",
+      "title": "NGO",
+      "description": "Non-governmental organizations and nonprofits."
+    },
+    {
+      "id": "think-tank",
+      "title": "Think Tank",
+      "description": "Policy institutes and research organizations."
+    },
+    {
+      "id": "corporate",
+      "title": "Corporate",
+      "description": "Corporate sources and company blogs."
+    },
+    {
+      "id": "community",
+      "title": "Community",
+      "description": "Community organizations and grassroots sources."
+    },
+    {
+      "id": "personal",
+      "title": "Personal",
+      "description": "Personal blogs and individual voices."
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "name": "English"
+    },
+    {
+      "code": "es",
+      "name": "Spanish"
+    },
+    {
+      "code": "fr",
+      "name": "French"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese"
+    },
+    {
+      "code": "ru",
+      "name": "Russian"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese"
+    },
+    {
+      "code": "de",
+      "name": "German"
+    },
+    {
+      "code": "ko",
+      "name": "Korean"
+    },
+    {
+      "code": "it",
+      "name": "Italian"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese"
+    },
+    {
+      "code": "fa",
+      "name": "Persian"
+    },
+    {
+      "code": "sw",
+      "name": "Swahili"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch"
+    },
+    {
+      "code": "pl",
+      "name": "Polish"
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian"
+    }
+  ],
+  "regions": [
+    {
+      "code": "AF",
+      "name": "Africa"
+    },
+    {
+      "code": "AF-N",
+      "name": "Africa \u2014 North"
+    },
+    {
+      "code": "AF-W",
+      "name": "Africa \u2014 West"
+    },
+    {
+      "code": "AF-E",
+      "name": "Africa \u2014 East"
+    },
+    {
+      "code": "AF-C",
+      "name": "Africa \u2014 Central"
+    },
+    {
+      "code": "AF-S",
+      "name": "Africa \u2014 Southern"
+    },
+    {
+      "code": "AS",
+      "name": "Asia"
+    },
+    {
+      "code": "AS-W",
+      "name": "Asia \u2014 West"
+    },
+    {
+      "code": "AS-S",
+      "name": "Asia \u2014 South"
+    },
+    {
+      "code": "AS-E",
+      "name": "Asia \u2014 East"
+    },
+    {
+      "code": "AS-SE",
+      "name": "Asia \u2014 Southeast"
+    },
+    {
+      "code": "AS-C",
+      "name": "Asia \u2014 Central"
+    },
+    {
+      "code": "EU",
+      "name": "Europe"
+    },
+    {
+      "code": "EU-N",
+      "name": "Europe \u2014 North"
+    },
+    {
+      "code": "EU-W",
+      "name": "Europe \u2014 West"
+    },
+    {
+      "code": "EU-E",
+      "name": "Europe \u2014 East"
+    },
+    {
+      "code": "EU-S",
+      "name": "Europe \u2014 South"
+    },
+    {
+      "code": "NA",
+      "name": "North America"
+    },
+    {
+      "code": "NA-N",
+      "name": "North America \u2014 North"
+    },
+    {
+      "code": "NA-C",
+      "name": "North America \u2014 Central"
+    },
+    {
+      "code": "NA-CB",
+      "name": "North America \u2014 Caribbean"
+    },
+    {
+      "code": "SA",
+      "name": "South America"
+    },
+    {
+      "code": "SA-N",
+      "name": "South America \u2014 North"
+    },
+    {
+      "code": "SA-S",
+      "name": "South America \u2014 South"
+    },
+    {
+      "code": "OC",
+      "name": "Oceania"
+    },
+    {
+      "code": "OC-AU",
+      "name": "Oceania \u2014 Australia"
+    },
+    {
+      "code": "OC-NZ",
+      "name": "Oceania \u2014 New Zealand"
+    },
+    {
+      "code": "OC-PI",
+      "name": "Oceania \u2014 Pacific Islands"
+    },
+    {
+      "code": "ME",
+      "name": "Middle East"
+    },
+    {
+      "code": "ARCTIC",
+      "name": "Arctic"
+    },
+    {
+      "code": "GLOBAL",
+      "name": "Global"
+    }
+  ],
+  "feeds": [
+    {
+      "id": "associated-press-top-news",
+      "title": "Associated Press Top News",
+      "site_url": "https://apnews.com/",
+      "feed_url": "https://apnews.com/apf-topnews",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "breaking",
+        "global"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Breaking",
+        "Global"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "bbc-world",
+      "title": "BBC News - World",
+      "site_url": "https://www.bbc.com/news",
+      "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "cloudflare-blog",
+      "title": "The Cloudflare Blog",
+      "site_url": "https://blog.cloudflare.com/",
+      "feed_url": "https://blog.cloudflare.com/rss/",
+      "format": "rss",
+      "category": "infrastructure_cloud_devops",
+      "tags": [
+        "infrastructure",
+        "cybersecurity"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "corporate",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Infrastructure, Cloud & DevOps",
+      "tag_titles": [
+        "Infrastructure",
+        "Cybersecurity"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "eff-updates",
+      "title": "Electronic Frontier Foundation Updates",
+      "site_url": "https://www.eff.org/",
+      "feed_url": "https://www.eff.org/rss/updates.xml",
+      "format": "rss",
+      "category": "human_rights_civil_liberties",
+      "tags": [
+        "privacy",
+        "human-rights"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "ngo",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Human Rights & Civil Liberties",
+      "tag_titles": [
+        "Privacy",
+        "Human Rights"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "fao-news",
+      "title": "FAO News",
+      "site_url": "https://www.fao.org/",
+      "feed_url": "https://www.fao.org/feeds/news/en/rss.xml",
+      "format": "rss",
+      "category": "agriculture_food_systems",
+      "tags": [
+        "agriculture",
+        "food-systems"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Agriculture & Food Systems",
+      "tag_titles": [
+        "Agriculture",
+        "Food Systems"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "ieee-spectrum",
+      "title": "IEEE Spectrum",
+      "site_url": "https://spectrum.ieee.org/",
+      "feed_url": "https://spectrum.ieee.org/rss/fulltext",
+      "format": "rss",
+      "category": "engineering_applied_science",
+      "tags": [
+        "hardware",
+        "research"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "academic",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Engineering & Applied Tech",
+      "tag_titles": [
+        "Hardware",
+        "Research"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "nasa-breaking-news",
+      "title": "NASA Breaking News",
+      "site_url": "https://www.nasa.gov/",
+      "feed_url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "format": "rss",
+      "category": "science_research",
+      "tags": [
+        "space",
+        "science"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Science & Research",
+      "tag_titles": [
+        "Space",
+        "Science"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "oecd-development",
+      "title": "OECD Development Matters",
+      "site_url": "https://oecdecoscope.blog/",
+      "feed_url": "https://oecdecoscope.blog/category/development/feed/",
+      "format": "rss",
+      "category": "international_development_aid",
+      "tags": [
+        "development",
+        "economics"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "International Development & Aid",
+      "tag_titles": [
+        "Development",
+        "Economics"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "reuters-world",
+      "title": "Reuters - World News",
+      "site_url": "https://www.reuters.com/world/",
+      "feed_url": "https://www.reuters.com/world/rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "who-news",
+      "title": "World Health Organization - News",
+      "site_url": "https://www.who.int/",
+      "feed_url": "https://www.who.int/rss-feeds/news-english.xml",
+      "format": "rss",
+      "category": "health_medicine",
+      "tags": [
+        "public-health",
+        "global"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-08",
+      "category_title": "Health & Medicine",
+      "tag_titles": [
+        "Public Health",
+        "Global"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    }
+  ]
+}
