@@ -1,0 +1,14 @@
+id: science-magazine
+title: Science Magazine - News
+site_url: https://www.science.org/news
+feed_url: https://www.science.org/rss/news_current.xml
+format: rss
+category: science_research
+tags:
+  - science
+  - research
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

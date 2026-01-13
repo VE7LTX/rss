@@ -1,0 +1,14 @@
+id: esa-activities
+title: European Space Agency - Activities
+site_url: https://www.esa.int/
+feed_url: https://www.esa.int/rssfeed/Our_Activities
+format: rss
+category: science_research
+tags:
+  - space
+  - science
+language: en
+region: EU
+source_type: government
+status: active
+added: "2026-01-13"

@@ -4,15 +4,65 @@
     <title>The RSS Encyclopedia</title>
   </head>
   <body>
+    <outline text="ABC News (Australia)" title="ABC News (Australia)" type="rss" xmlUrl="https://www.abc.net.au/news/feed/45910/rss.xml" htmlUrl="https://www.abc.net.au/news/" category="news_current_affairs" />
+    <outline text="Africanews - Latest" title="Africanews - Latest" type="rss" xmlUrl="https://www.africanews.com/feed/" htmlUrl="https://www.africanews.com/" category="news_current_affairs" />
+    <outline text="Al Jazeera - All News" title="Al Jazeera - All News" type="rss" xmlUrl="https://www.aljazeera.com/xml/rss/all.xml" htmlUrl="https://www.aljazeera.com/" category="news_current_affairs" />
+    <outline text="AllAfrica - Latest Headlines" title="AllAfrica - Latest Headlines" type="rss" xmlUrl="https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf" htmlUrl="https://allafrica.com/" category="news_current_affairs" />
+    <outline text="Ars Technica" title="Ars Technica" type="rss" xmlUrl="http://feeds.arstechnica.com/arstechnica/index" htmlUrl="https://arstechnica.com/" category="technology" />
     <outline text="Associated Press Top News" title="Associated Press Top News" type="rss" xmlUrl="https://apnews.com/apf-topnews" htmlUrl="https://apnews.com/" category="news_current_affairs" />
+    <outline text="Aviation Week" title="Aviation Week" type="rss" xmlUrl="https://aviationweek.com/rss.xml" htmlUrl="https://aviationweek.com/" category="transportation_infrastructure" />
+    <outline text="BBC News - Entertainment &amp; Arts" title="BBC News - Entertainment &amp; Arts" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml" htmlUrl="https://www.bbc.com/news/entertainment_and_arts" category="arts_entertainment" />
     <outline text="BBC News - World" title="BBC News - World" type="rss" xmlUrl="https://feeds.bbci.co.uk/news/world/rss.xml" htmlUrl="https://www.bbc.com/news" category="news_current_affairs" />
-    <outline text="The Cloudflare Blog" title="The Cloudflare Blog" type="rss" xmlUrl="https://blog.cloudflare.com/rss/" htmlUrl="https://blog.cloudflare.com/" category="infrastructure_cloud_devops" />
+    <outline text="BleepingComputer" title="BleepingComputer" type="rss" xmlUrl="https://www.bleepingcomputer.com/feed/" htmlUrl="https://www.bleepingcomputer.com/" category="cybersecurity_privacy" />
+    <outline text="CBC News - World" title="CBC News - World" type="rss" xmlUrl="https://www.cbc.ca/cmlink/rss-world" htmlUrl="https://www.cbc.ca/news/world" category="news_current_affairs" />
+    <outline text="CDC - Newsroom" title="CDC - Newsroom" type="rss" xmlUrl="https://tools.cdc.gov/api/v2/resources/media/132608.rss" htmlUrl="https://www.cdc.gov/media/" category="health_medicine" />
+    <outline text="CISA Alerts" title="CISA Alerts" type="rss" xmlUrl="https://www.cisa.gov/uscert/ncas/alerts.xml" htmlUrl="https://www.cisa.gov/" category="cybersecurity_privacy" />
+    <outline text="Climate.gov" title="Climate.gov" type="rss" xmlUrl="https://www.climate.gov/rss.xml" htmlUrl="https://www.climate.gov/" category="environment_climate" />
+    <outline text="The Cloudflare Blog" title="The Cloudflare Blog" type="rss" xmlUrl="https://blog.cloudflare.com/rss/" htmlUrl="https://blog.cloudflare.com/" category="technology" />
+    <outline text="CNBC - Top News" title="CNBC - Top News" type="rss" xmlUrl="https://www.cnbc.com/id/100003114/device/rss/rss.html" htmlUrl="https://www.cnbc.com/world/?region=world" category="finance_markets" />
+    <outline text="CNN - World" title="CNN - World" type="rss" xmlUrl="http://rss.cnn.com/rss/edition_world.rss" htmlUrl="https://www.cnn.com/world" category="news_current_affairs" />
+    <outline text="DW - Top Stories" title="DW - Top Stories" type="rss" xmlUrl="https://rss.dw.com/xml/rss-en-all" htmlUrl="https://www.dw.com/en/top-stories/s-9097" category="news_current_affairs" />
+    <outline text="European Central Bank - Press Releases" title="European Central Bank - Press Releases" type="rss" xmlUrl="https://www.ecb.europa.eu/rss/press.html" htmlUrl="https://www.ecb.europa.eu/press/pressreleases/html/index.en.html" category="economics_macro_policy" />
+    <outline text="EdSurge" title="EdSurge" type="rss" xmlUrl="https://www.edsurge.com/rss" htmlUrl="https://www.edsurge.com/" category="education_learning" />
     <outline text="Electronic Frontier Foundation Updates" title="Electronic Frontier Foundation Updates" type="rss" xmlUrl="https://www.eff.org/rss/updates.xml" htmlUrl="https://www.eff.org/" category="human_rights_civil_liberties" />
+    <outline text="U.S. EIA - Today in Energy" title="U.S. EIA - Today in Energy" type="rss" xmlUrl="https://www.eia.gov/rss/todayinenergy.xml" htmlUrl="https://www.eia.gov/todayinenergy/" category="energy_systems" />
+    <outline text="El Pais - Portada" title="El Pais - Portada" type="rss" xmlUrl="https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada" htmlUrl="https://elpais.com/" category="news_current_affairs" />
+    <outline text="European Space Agency - Activities" title="European Space Agency - Activities" type="rss" xmlUrl="https://www.esa.int/rssfeed/Our_Activities" htmlUrl="https://www.esa.int/" category="science_research" />
     <outline text="FAO News" title="FAO News" type="rss" xmlUrl="https://www.fao.org/feeds/news/en/rss.xml" htmlUrl="https://www.fao.org/" category="agriculture_food_systems" />
+    <outline text="France 24 - English" title="France 24 - English" type="rss" xmlUrl="https://www.france24.com/en/rss" htmlUrl="https://www.france24.com/en/" category="news_current_affairs" />
+    <outline text="Google Research Blog" title="Google Research Blog" type="rss" xmlUrl="https://research.google/blog/rss/" htmlUrl="https://research.google/blog/" category="technology" />
+    <outline text="The Guardian - World" title="The Guardian - World" type="rss" xmlUrl="https://www.theguardian.com/world/rss" htmlUrl="https://www.theguardian.com/world" category="news_current_affairs" />
+    <outline text="Hacker News" title="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" category="technology" />
     <outline text="IEEE Spectrum" title="IEEE Spectrum" type="rss" xmlUrl="https://spectrum.ieee.org/rss/fulltext" htmlUrl="https://spectrum.ieee.org/" category="engineering_applied_science" />
+    <outline text="The Japan Times" title="The Japan Times" type="rss" xmlUrl="https://www.japantimes.co.jp/feed/" htmlUrl="https://www.japantimes.co.jp/" category="news_current_affairs" />
+    <outline text="Krebs on Security" title="Krebs on Security" type="rss" xmlUrl="https://krebsonsecurity.com/feed/" htmlUrl="https://krebsonsecurity.com/" category="cybersecurity_privacy" />
+    <outline text="Le Monde - A la Une" title="Le Monde - A la Une" type="rss" xmlUrl="https://www.lemonde.fr/rss/une.xml" htmlUrl="https://www.lemonde.fr/" category="news_current_affairs" />
+    <outline text="MarketWatch - Top Stories" title="MarketWatch - Top Stories" type="rss" xmlUrl="https://feeds.marketwatch.com/marketwatch/topstories/" htmlUrl="https://www.marketwatch.com/" category="finance_markets" />
+    <outline text="MercoPress" title="MercoPress" type="rss" xmlUrl="https://en.mercopress.com/rss" htmlUrl="https://en.mercopress.com/" category="news_current_affairs" />
+    <outline text="MIT Technology Review" title="MIT Technology Review" type="rss" xmlUrl="https://www.technologyreview.com/feed/" htmlUrl="https://www.technologyreview.com/" category="technology" />
     <outline text="NASA Breaking News" title="NASA Breaking News" type="rss" xmlUrl="https://www.nasa.gov/rss/dyn/breaking_news.rss" htmlUrl="https://www.nasa.gov/" category="science_research" />
+    <outline text="Nature" title="Nature" type="rss" xmlUrl="https://www.nature.com/nature.rss" htmlUrl="https://www.nature.com/" category="science_research" />
+    <outline text="NPR - World" title="NPR - World" type="rss" xmlUrl="https://feeds.npr.org/1004/rss.xml" htmlUrl="https://www.npr.org/sections/world/" category="news_current_affairs" />
+    <outline text="The New York Times - World" title="The New York Times - World" type="rss" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/World.xml" htmlUrl="https://www.nytimes.com/section/world" category="news_current_affairs" />
     <outline text="OECD Development Matters" title="OECD Development Matters" type="rss" xmlUrl="https://oecdecoscope.blog/category/development/feed/" htmlUrl="https://oecdecoscope.blog/" category="international_development_aid" />
+    <outline text="OilPrice.com" title="OilPrice.com" type="rss" xmlUrl="https://oilprice.com/rss/main" htmlUrl="https://oilprice.com/" category="energy_systems" />
+    <outline text="PAHO - News" title="PAHO - News" type="rss" xmlUrl="https://www.paho.org/en/rss.xml" htmlUrl="https://www.paho.org/en/news" category="health_medicine" />
     <outline text="Reuters - World News" title="Reuters - World News" type="rss" xmlUrl="https://www.reuters.com/world/rss" htmlUrl="https://www.reuters.com/world/" category="news_current_affairs" />
+    <outline text="Science Magazine - News" title="Science Magazine - News" type="rss" xmlUrl="https://www.science.org/rss/news_current.xml" htmlUrl="https://www.science.org/news" category="science_research" />
+    <outline text="ScienceDaily - Latest" title="ScienceDaily - Latest" type="rss" xmlUrl="https://www.sciencedaily.com/rss/all.xml" htmlUrl="https://www.sciencedaily.com/" category="science_research" />
+    <outline text="SecurityWeek" title="SecurityWeek" type="rss" xmlUrl="https://www.securityweek.com/feed/" htmlUrl="https://www.securityweek.com/" category="cybersecurity_privacy" />
+    <outline text="Der Spiegel - International" title="Der Spiegel - International" type="rss" xmlUrl="https://www.spiegel.de/international/index.rss" htmlUrl="https://www.spiegel.de/international/" category="news_current_affairs" />
+    <outline text="TechCrunch" title="TechCrunch" type="rss" xmlUrl="https://techcrunch.com/feed/" htmlUrl="https://techcrunch.com/" category="technology" />
+    <outline text="The Hacker News" title="The Hacker News" type="rss" xmlUrl="https://feeds.feedburner.com/TheHackersNews" htmlUrl="https://thehackernews.com/" category="cybersecurity_privacy" />
+    <outline text="The Hindu - International" title="The Hindu - International" type="rss" xmlUrl="https://www.thehindu.com/news/international/feeder/default.rss" htmlUrl="https://www.thehindu.com/news/international/" category="news_current_affairs" />
+    <outline text="The Verge" title="The Verge" type="rss" xmlUrl="https://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/" category="technology" />
+    <outline text="Times of India - World" title="Times of India - World" type="rss" xmlUrl="https://timesofindia.indiatimes.com/rssfeeds/296589292.cms" htmlUrl="https://timesofindia.indiatimes.com/world" category="news_current_affairs" />
+    <outline text="The Times of Israel" title="The Times of Israel" type="rss" xmlUrl="https://www.timesofisrael.com/feed/" htmlUrl="https://www.timesofisrael.com/" category="news_current_affairs" />
+    <outline text="UK Government - News and Communications" title="UK Government - News and Communications" type="rss" xmlUrl="https://www.gov.uk/search/news-and-communications.atom" htmlUrl="https://www.gov.uk/search/news-and-communications" category="politics_government" />
+    <outline text="UN News" title="UN News" type="rss" xmlUrl="https://news.un.org/feed/subscribe/en/news/all/rss.xml" htmlUrl="https://news.un.org/en/" category="international_development_aid" />
+    <outline text="United Nations - Press Releases" title="United Nations - Press Releases" type="rss" xmlUrl="https://www.un.org/press/en/rss.xml" htmlUrl="https://www.un.org/press/en/" category="international_relations_security" />
+    <outline text="UNEP - News" title="UNEP - News" type="rss" xmlUrl="https://www.unep.org/rss.xml" htmlUrl="https://www.unep.org/news-and-stories" category="environment_climate" />
     <outline text="World Health Organization - News" title="World Health Organization - News" type="rss" xmlUrl="https://www.who.int/rss-feeds/news-english.xml" htmlUrl="https://www.who.int/" category="health_medicine" />
+    <outline text="Wired" title="Wired" type="rss" xmlUrl="https://www.wired.com/feed/rss" htmlUrl="https://www.wired.com/" category="technology" />
   </body>
 </opml>

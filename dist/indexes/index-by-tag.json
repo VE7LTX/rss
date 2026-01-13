@@ -1,26 +1,150 @@
 {
+  "regional": [
+    "abc-au-news",
+    "africanews",
+    "allafrica-headlines",
+    "el-pais-portada",
+    "japan-times",
+    "le-monde-une",
+    "mercopress",
+    "spiegel-international",
+    "times-of-india-world",
+    "times-of-israel"
+  ],
   "breaking": [
+    "abc-au-news",
+    "africanews",
+    "al-jazeera-all",
     "associated-press-top-news",
     "bbc-world",
-    "reuters-world"
+    "cbc-world",
+    "cnn-world",
+    "france24-en",
+    "reuters-world",
+    "times-of-india-world"
   ],
   "global": [
+    "al-jazeera-all",
     "associated-press-top-news",
     "bbc-world",
+    "cbc-world",
+    "cnn-world",
+    "dw-top-stories",
+    "france24-en",
+    "guardian-world",
+    "npr-world",
+    "nytimes-world",
     "reuters-world",
+    "the-hindu-international",
+    "un-news",
     "who-news"
   ],
+  "journalism": [
+    "allafrica-headlines",
+    "dw-top-stories",
+    "el-pais-portada",
+    "guardian-world",
+    "japan-times",
+    "le-monde-une",
+    "mercopress",
+    "npr-world"
+  ],
+  "hardware": [
+    "ars-technica",
+    "ieee-spectrum",
+    "the-verge"
+  ],
+  "web": [
+    "ars-technica",
+    "edsurge",
+    "wired"
+  ],
+  "transportation": [
+    "aviation-week"
+  ],
   "infrastructure": [
+    "aviation-week",
     "cloudflare-blog"
+  ],
+  "arts": [
+    "bbc-culture"
+  ],
+  "film-tv": [
+    "bbc-culture"
   ],
   "cybersecurity": [
-    "cloudflare-blog"
+    "bleepingcomputer",
+    "cisa-alerts",
+    "cloudflare-blog",
+    "krebs-on-security",
+    "securityweek",
+    "the-hacker-news"
   ],
   "privacy": [
-    "eff-updates"
+    "bleepingcomputer",
+    "eff-updates",
+    "krebs-on-security",
+    "the-hacker-news"
+  ],
+  "public-health": [
+    "cdc-newsroom",
+    "paho-news",
+    "who-news"
+  ],
+  "medicine": [
+    "cdc-newsroom",
+    "paho-news"
+  ],
+  "government": [
+    "cisa-alerts",
+    "uk-gov-news"
+  ],
+  "climate": [
+    "climate-gov",
+    "unep-news"
+  ],
+  "environment": [
+    "climate-gov",
+    "unep-news"
+  ],
+  "markets": [
+    "cnbc-top",
+    "eia-today-in-energy",
+    "marketwatch-top"
+  ],
+  "finance": [
+    "cnbc-top",
+    "marketwatch-top"
+  ],
+  "economics": [
+    "ecb-press",
+    "oecd-development"
+  ],
+  "policy": [
+    "ecb-press",
+    "uk-gov-news",
+    "un-press"
+  ],
+  "education": [
+    "edsurge"
   ],
   "human-rights": [
     "eff-updates"
+  ],
+  "energy": [
+    "eia-today-in-energy",
+    "oilprice"
+  ],
+  "space": [
+    "esa-activities",
+    "nasa-breaking-news"
+  ],
+  "science": [
+    "esa-activities",
+    "nasa-breaking-news",
+    "nature",
+    "science-magazine",
+    "sciencedaily"
   ],
   "agriculture": [
     "fao-news"
@@ -28,25 +152,57 @@
   "food-systems": [
     "fao-news"
   ],
-  "hardware": [
-    "ieee-spectrum"
+  "ai": [
+    "google-research",
+    "mit-tech-review"
+  ],
+  "machine-learning": [
+    "google-research"
+  ],
+  "programming-languages": [
+    "hacker-news"
+  ],
+  "open-source": [
+    "hacker-news"
   ],
   "research": [
-    "ieee-spectrum"
+    "ieee-spectrum",
+    "nature",
+    "science-magazine",
+    "sciencedaily"
   ],
-  "space": [
-    "nasa-breaking-news"
+  "data-science": [
+    "mit-tech-review"
   ],
-  "science": [
-    "nasa-breaking-news"
+  "analysis": [
+    "nytimes-world",
+    "securityweek",
+    "spiegel-international",
+    "the-hindu-international"
   ],
   "development": [
     "oecd-development"
   ],
-  "economics": [
-    "oecd-development"
+  "oil-gas": [
+    "oilprice"
   ],
-  "public-health": [
-    "who-news"
+  "startups": [
+    "techcrunch"
+  ],
+  "venture-capital": [
+    "techcrunch"
+  ],
+  "digital-culture": [
+    "the-verge",
+    "wired"
+  ],
+  "politics": [
+    "times-of-israel"
+  ],
+  "humanitarian": [
+    "un-news"
+  ],
+  "geopolitics": [
+    "un-press"
   ]
 }

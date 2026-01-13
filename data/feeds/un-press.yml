@@ -1,0 +1,14 @@
+id: un-press
+title: United Nations - Press Releases
+site_url: https://www.un.org/press/en/
+feed_url: https://www.un.org/press/en/rss.xml
+format: rss
+category: international_relations_security
+tags:
+  - geopolitics
+  - policy
+language: en
+region: GLOBAL
+source_type: government
+status: active
+added: "2026-01-13"

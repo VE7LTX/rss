@@ -1,0 +1,14 @@
+id: ars-technica
+title: Ars Technica
+site_url: https://arstechnica.com/
+feed_url: http://feeds.arstechnica.com/arstechnica/index
+format: rss
+category: technology
+tags:
+  - hardware
+  - web
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

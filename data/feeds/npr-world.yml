@@ -1,0 +1,14 @@
+id: npr-world
+title: NPR - World
+site_url: https://www.npr.org/sections/world/
+feed_url: https://feeds.npr.org/1004/rss.xml
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - journalism
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

@@ -1,0 +1,14 @@
+id: the-hacker-news
+title: The Hacker News
+site_url: https://thehackernews.com/
+feed_url: https://feeds.feedburner.com/TheHackersNews
+format: rss
+category: cybersecurity_privacy
+tags:
+  - cybersecurity
+  - privacy
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

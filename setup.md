@@ -34,6 +34,14 @@ Open `http://localhost:8000/public/index.html`.
 python -m unittest discover -s tests
 ```
 
+## Seed feeds
+
+```bash
+python scripts/tools/seed_feeds.py --verify --write
+```
+
+Use `--offset` and `--limit` to run in batches if needed.
+
 ## Common tasks
 
 - Add or edit feeds in `data/feeds/`.

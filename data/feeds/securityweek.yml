@@ -1,0 +1,14 @@
+id: securityweek
+title: SecurityWeek
+site_url: https://www.securityweek.com/
+feed_url: https://www.securityweek.com/feed/
+format: rss
+category: cybersecurity_privacy
+tags:
+  - cybersecurity
+  - analysis
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

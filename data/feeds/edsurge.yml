@@ -1,0 +1,14 @@
+id: edsurge
+title: EdSurge
+site_url: https://www.edsurge.com/
+feed_url: https://www.edsurge.com/rss
+format: rss
+category: education_learning
+tags:
+  - education
+  - web
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

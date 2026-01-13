@@ -1,22 +1,76 @@
 {
   "publisher": [
+    "abc-au-news",
+    "africanews",
+    "al-jazeera-all",
+    "allafrica-headlines",
+    "ars-technica",
     "associated-press-top-news",
+    "aviation-week",
+    "bbc-culture",
     "bbc-world",
-    "reuters-world"
-  ],
-  "corporate": [
-    "cloudflare-blog"
-  ],
-  "ngo": [
-    "eff-updates"
+    "bleepingcomputer",
+    "cbc-world",
+    "cnbc-top",
+    "cnn-world",
+    "dw-top-stories",
+    "edsurge",
+    "el-pais-portada",
+    "france24-en",
+    "guardian-world",
+    "japan-times",
+    "le-monde-une",
+    "marketwatch-top",
+    "mercopress",
+    "mit-tech-review",
+    "nature",
+    "npr-world",
+    "nytimes-world",
+    "oilprice",
+    "reuters-world",
+    "science-magazine",
+    "sciencedaily",
+    "securityweek",
+    "spiegel-international",
+    "techcrunch",
+    "the-hacker-news",
+    "the-hindu-international",
+    "the-verge",
+    "times-of-india-world",
+    "times-of-israel",
+    "wired"
   ],
   "government": [
+    "cdc-newsroom",
+    "cisa-alerts",
+    "climate-gov",
+    "ecb-press",
+    "eia-today-in-energy",
+    "esa-activities",
     "fao-news",
     "nasa-breaking-news",
     "oecd-development",
+    "uk-gov-news",
+    "un-news",
+    "un-press",
     "who-news"
+  ],
+  "corporate": [
+    "cloudflare-blog",
+    "google-research"
+  ],
+  "ngo": [
+    "eff-updates",
+    "paho-news",
+    "unep-news"
+  ],
+  "community": [
+    "hacker-news"
   ],
   "academic": [
     "ieee-spectrum"
+  ],
+  "independent": [
+    "krebs-on-security"
   ]
 }

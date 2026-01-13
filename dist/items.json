@@ -1,10 +1,66 @@
 [
   {
+    "feed_id": "abc-au-news",
+    "feed_title": "ABC News (Australia)",
+    "title": "ABC News (Australia) sample update 1",
+    "url": "https://www.abc.net.au/news/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "africanews",
+    "feed_title": "Africanews - Latest",
+    "title": "Africanews - Latest sample update 1",
+    "url": "https://www.africanews.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "al-jazeera-all",
+    "feed_title": "Al Jazeera - All News",
+    "title": "Al Jazeera - All News sample update 1",
+    "url": "https://www.aljazeera.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "allafrica-headlines",
+    "feed_title": "AllAfrica - Latest Headlines",
+    "title": "AllAfrica - Latest Headlines sample update 1",
+    "url": "https://allafrica.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ars-technica",
+    "feed_title": "Ars Technica",
+    "title": "Ars Technica sample update 1",
+    "url": "https://arstechnica.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
     "feed_id": "associated-press-top-news",
     "feed_title": "Associated Press Top News",
     "title": "Associated Press Top News sample update 1",
     "url": "https://apnews.com/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "aviation-week",
+    "feed_title": "Aviation Week",
+    "title": "Aviation Week sample update 1",
+    "url": "https://aviationweek.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bbc-culture",
+    "feed_title": "BBC News - Entertainment & Arts",
+    "title": "BBC News - Entertainment & Arts sample update 1",
+    "url": "https://www.bbc.com/news/entertainment_and_arts",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -12,7 +68,47 @@
     "feed_title": "BBC News - World",
     "title": "BBC News - World sample update 1",
     "url": "https://www.bbc.com/news",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bleepingcomputer",
+    "feed_title": "BleepingComputer",
+    "title": "BleepingComputer sample update 1",
+    "url": "https://www.bleepingcomputer.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cbc-world",
+    "feed_title": "CBC News - World",
+    "title": "CBC News - World sample update 1",
+    "url": "https://www.cbc.ca/news/world",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cdc-newsroom",
+    "feed_title": "CDC - Newsroom",
+    "title": "CDC - Newsroom sample update 1",
+    "url": "https://www.cdc.gov/media/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cisa-alerts",
+    "feed_title": "CISA Alerts",
+    "title": "CISA Alerts sample update 1",
+    "url": "https://www.cisa.gov/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "climate-gov",
+    "feed_title": "Climate.gov",
+    "title": "Climate.gov sample update 1",
+    "url": "https://www.climate.gov/",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -20,7 +116,47 @@
     "feed_title": "The Cloudflare Blog",
     "title": "The Cloudflare Blog sample update 1",
     "url": "https://blog.cloudflare.com/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cnbc-top",
+    "feed_title": "CNBC - Top News",
+    "title": "CNBC - Top News sample update 1",
+    "url": "https://www.cnbc.com/world/?region=world",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cnn-world",
+    "feed_title": "CNN - World",
+    "title": "CNN - World sample update 1",
+    "url": "https://www.cnn.com/world",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "dw-top-stories",
+    "feed_title": "DW - Top Stories",
+    "title": "DW - Top Stories sample update 1",
+    "url": "https://www.dw.com/en/top-stories/s-9097",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ecb-press",
+    "feed_title": "European Central Bank - Press Releases",
+    "title": "European Central Bank - Press Releases sample update 1",
+    "url": "https://www.ecb.europa.eu/press/pressreleases/html/index.en.html",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "edsurge",
+    "feed_title": "EdSurge",
+    "title": "EdSurge sample update 1",
+    "url": "https://www.edsurge.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -28,7 +164,31 @@
     "feed_title": "Electronic Frontier Foundation Updates",
     "title": "Electronic Frontier Foundation Updates sample update 1",
     "url": "https://www.eff.org/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "eia-today-in-energy",
+    "feed_title": "U.S. EIA - Today in Energy",
+    "title": "U.S. EIA - Today in Energy sample update 1",
+    "url": "https://www.eia.gov/todayinenergy/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "el-pais-portada",
+    "feed_title": "El Pais - Portada",
+    "title": "El Pais - Portada sample update 1",
+    "url": "https://elpais.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "esa-activities",
+    "feed_title": "European Space Agency - Activities",
+    "title": "European Space Agency - Activities sample update 1",
+    "url": "https://www.esa.int/",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -36,7 +196,39 @@
     "feed_title": "FAO News",
     "title": "FAO News sample update 1",
     "url": "https://www.fao.org/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "france24-en",
+    "feed_title": "France 24 - English",
+    "title": "France 24 - English sample update 1",
+    "url": "https://www.france24.com/en/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "google-research",
+    "feed_title": "Google Research Blog",
+    "title": "Google Research Blog sample update 1",
+    "url": "https://research.google/blog/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "guardian-world",
+    "feed_title": "The Guardian - World",
+    "title": "The Guardian - World sample update 1",
+    "url": "https://www.theguardian.com/world",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "hacker-news",
+    "feed_title": "Hacker News",
+    "title": "Hacker News sample update 1",
+    "url": "https://news.ycombinator.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -44,7 +236,55 @@
     "feed_title": "IEEE Spectrum",
     "title": "IEEE Spectrum sample update 1",
     "url": "https://spectrum.ieee.org/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "japan-times",
+    "feed_title": "The Japan Times",
+    "title": "The Japan Times sample update 1",
+    "url": "https://www.japantimes.co.jp/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "krebs-on-security",
+    "feed_title": "Krebs on Security",
+    "title": "Krebs on Security sample update 1",
+    "url": "https://krebsonsecurity.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "le-monde-une",
+    "feed_title": "Le Monde - A la Une",
+    "title": "Le Monde - A la Une sample update 1",
+    "url": "https://www.lemonde.fr/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "marketwatch-top",
+    "feed_title": "MarketWatch - Top Stories",
+    "title": "MarketWatch - Top Stories sample update 1",
+    "url": "https://www.marketwatch.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "mercopress",
+    "feed_title": "MercoPress",
+    "title": "MercoPress sample update 1",
+    "url": "https://en.mercopress.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "mit-tech-review",
+    "feed_title": "MIT Technology Review",
+    "title": "MIT Technology Review sample update 1",
+    "url": "https://www.technologyreview.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -52,7 +292,31 @@
     "feed_title": "NASA Breaking News",
     "title": "NASA Breaking News sample update 1",
     "url": "https://www.nasa.gov/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nature",
+    "feed_title": "Nature",
+    "title": "Nature sample update 1",
+    "url": "https://www.nature.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "npr-world",
+    "feed_title": "NPR - World",
+    "title": "NPR - World sample update 1",
+    "url": "https://www.npr.org/sections/world/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nytimes-world",
+    "feed_title": "The New York Times - World",
+    "title": "The New York Times - World sample update 1",
+    "url": "https://www.nytimes.com/section/world",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -60,7 +324,23 @@
     "feed_title": "OECD Development Matters",
     "title": "OECD Development Matters sample update 1",
     "url": "https://oecdecoscope.blog/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "oilprice",
+    "feed_title": "OilPrice.com",
+    "title": "OilPrice.com sample update 1",
+    "url": "https://oilprice.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "paho-news",
+    "feed_title": "PAHO - News",
+    "title": "PAHO - News sample update 1",
+    "url": "https://www.paho.org/en/news",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -68,7 +348,119 @@
     "feed_title": "Reuters - World News",
     "title": "Reuters - World News sample update 1",
     "url": "https://www.reuters.com/world/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "science-magazine",
+    "feed_title": "Science Magazine - News",
+    "title": "Science Magazine - News sample update 1",
+    "url": "https://www.science.org/news",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "sciencedaily",
+    "feed_title": "ScienceDaily - Latest",
+    "title": "ScienceDaily - Latest sample update 1",
+    "url": "https://www.sciencedaily.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "securityweek",
+    "feed_title": "SecurityWeek",
+    "title": "SecurityWeek sample update 1",
+    "url": "https://www.securityweek.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "spiegel-international",
+    "feed_title": "Der Spiegel - International",
+    "title": "Der Spiegel - International sample update 1",
+    "url": "https://www.spiegel.de/international/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "techcrunch",
+    "feed_title": "TechCrunch",
+    "title": "TechCrunch sample update 1",
+    "url": "https://techcrunch.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-hacker-news",
+    "feed_title": "The Hacker News",
+    "title": "The Hacker News sample update 1",
+    "url": "https://thehackernews.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-hindu-international",
+    "feed_title": "The Hindu - International",
+    "title": "The Hindu - International sample update 1",
+    "url": "https://www.thehindu.com/news/international/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-verge",
+    "feed_title": "The Verge",
+    "title": "The Verge sample update 1",
+    "url": "https://www.theverge.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "times-of-india-world",
+    "feed_title": "Times of India - World",
+    "title": "Times of India - World sample update 1",
+    "url": "https://timesofindia.indiatimes.com/world",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "times-of-israel",
+    "feed_title": "The Times of Israel",
+    "title": "The Times of Israel sample update 1",
+    "url": "https://www.timesofisrael.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "uk-gov-news",
+    "feed_title": "UK Government - News and Communications",
+    "title": "UK Government - News and Communications sample update 1",
+    "url": "https://www.gov.uk/search/news-and-communications",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "un-news",
+    "feed_title": "UN News",
+    "title": "UN News sample update 1",
+    "url": "https://news.un.org/en/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "un-press",
+    "feed_title": "United Nations - Press Releases",
+    "title": "United Nations - Press Releases sample update 1",
+    "url": "https://www.un.org/press/en/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "unep-news",
+    "feed_title": "UNEP - News",
+    "title": "UNEP - News sample update 1",
+    "url": "https://www.unep.org/news-and-stories",
+    "published": "2026-01-13T16:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -76,7 +468,55 @@
     "feed_title": "World Health Organization - News",
     "title": "World Health Organization - News sample update 1",
     "url": "https://www.who.int/",
-    "published": "2026-01-13T03:38:39.187910Z",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "wired",
+    "feed_title": "Wired",
+    "title": "Wired sample update 1",
+    "url": "https://www.wired.com/",
+    "published": "2026-01-13T16:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "abc-au-news",
+    "feed_title": "ABC News (Australia)",
+    "title": "ABC News (Australia) sample update 2",
+    "url": "https://www.abc.net.au/news/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "africanews",
+    "feed_title": "Africanews - Latest",
+    "title": "Africanews - Latest sample update 2",
+    "url": "https://www.africanews.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "al-jazeera-all",
+    "feed_title": "Al Jazeera - All News",
+    "title": "Al Jazeera - All News sample update 2",
+    "url": "https://www.aljazeera.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "allafrica-headlines",
+    "feed_title": "AllAfrica - Latest Headlines",
+    "title": "AllAfrica - Latest Headlines sample update 2",
+    "url": "https://allafrica.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ars-technica",
+    "feed_title": "Ars Technica",
+    "title": "Ars Technica sample update 2",
+    "url": "https://arstechnica.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -84,7 +524,23 @@
     "feed_title": "Associated Press Top News",
     "title": "Associated Press Top News sample update 2",
     "url": "https://apnews.com/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "aviation-week",
+    "feed_title": "Aviation Week",
+    "title": "Aviation Week sample update 2",
+    "url": "https://aviationweek.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bbc-culture",
+    "feed_title": "BBC News - Entertainment & Arts",
+    "title": "BBC News - Entertainment & Arts sample update 2",
+    "url": "https://www.bbc.com/news/entertainment_and_arts",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -92,7 +548,47 @@
     "feed_title": "BBC News - World",
     "title": "BBC News - World sample update 2",
     "url": "https://www.bbc.com/news",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "bleepingcomputer",
+    "feed_title": "BleepingComputer",
+    "title": "BleepingComputer sample update 2",
+    "url": "https://www.bleepingcomputer.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cbc-world",
+    "feed_title": "CBC News - World",
+    "title": "CBC News - World sample update 2",
+    "url": "https://www.cbc.ca/news/world",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cdc-newsroom",
+    "feed_title": "CDC - Newsroom",
+    "title": "CDC - Newsroom sample update 2",
+    "url": "https://www.cdc.gov/media/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cisa-alerts",
+    "feed_title": "CISA Alerts",
+    "title": "CISA Alerts sample update 2",
+    "url": "https://www.cisa.gov/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "climate-gov",
+    "feed_title": "Climate.gov",
+    "title": "Climate.gov sample update 2",
+    "url": "https://www.climate.gov/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -100,7 +596,47 @@
     "feed_title": "The Cloudflare Blog",
     "title": "The Cloudflare Blog sample update 2",
     "url": "https://blog.cloudflare.com/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cnbc-top",
+    "feed_title": "CNBC - Top News",
+    "title": "CNBC - Top News sample update 2",
+    "url": "https://www.cnbc.com/world/?region=world",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "cnn-world",
+    "feed_title": "CNN - World",
+    "title": "CNN - World sample update 2",
+    "url": "https://www.cnn.com/world",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "dw-top-stories",
+    "feed_title": "DW - Top Stories",
+    "title": "DW - Top Stories sample update 2",
+    "url": "https://www.dw.com/en/top-stories/s-9097",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "ecb-press",
+    "feed_title": "European Central Bank - Press Releases",
+    "title": "European Central Bank - Press Releases sample update 2",
+    "url": "https://www.ecb.europa.eu/press/pressreleases/html/index.en.html",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "edsurge",
+    "feed_title": "EdSurge",
+    "title": "EdSurge sample update 2",
+    "url": "https://www.edsurge.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -108,7 +644,31 @@
     "feed_title": "Electronic Frontier Foundation Updates",
     "title": "Electronic Frontier Foundation Updates sample update 2",
     "url": "https://www.eff.org/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "eia-today-in-energy",
+    "feed_title": "U.S. EIA - Today in Energy",
+    "title": "U.S. EIA - Today in Energy sample update 2",
+    "url": "https://www.eia.gov/todayinenergy/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "el-pais-portada",
+    "feed_title": "El Pais - Portada",
+    "title": "El Pais - Portada sample update 2",
+    "url": "https://elpais.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "esa-activities",
+    "feed_title": "European Space Agency - Activities",
+    "title": "European Space Agency - Activities sample update 2",
+    "url": "https://www.esa.int/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -116,7 +676,39 @@
     "feed_title": "FAO News",
     "title": "FAO News sample update 2",
     "url": "https://www.fao.org/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "france24-en",
+    "feed_title": "France 24 - English",
+    "title": "France 24 - English sample update 2",
+    "url": "https://www.france24.com/en/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "google-research",
+    "feed_title": "Google Research Blog",
+    "title": "Google Research Blog sample update 2",
+    "url": "https://research.google/blog/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "guardian-world",
+    "feed_title": "The Guardian - World",
+    "title": "The Guardian - World sample update 2",
+    "url": "https://www.theguardian.com/world",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "hacker-news",
+    "feed_title": "Hacker News",
+    "title": "Hacker News sample update 2",
+    "url": "https://news.ycombinator.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -124,7 +716,55 @@
     "feed_title": "IEEE Spectrum",
     "title": "IEEE Spectrum sample update 2",
     "url": "https://spectrum.ieee.org/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "japan-times",
+    "feed_title": "The Japan Times",
+    "title": "The Japan Times sample update 2",
+    "url": "https://www.japantimes.co.jp/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "krebs-on-security",
+    "feed_title": "Krebs on Security",
+    "title": "Krebs on Security sample update 2",
+    "url": "https://krebsonsecurity.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "le-monde-une",
+    "feed_title": "Le Monde - A la Une",
+    "title": "Le Monde - A la Une sample update 2",
+    "url": "https://www.lemonde.fr/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "marketwatch-top",
+    "feed_title": "MarketWatch - Top Stories",
+    "title": "MarketWatch - Top Stories sample update 2",
+    "url": "https://www.marketwatch.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "mercopress",
+    "feed_title": "MercoPress",
+    "title": "MercoPress sample update 2",
+    "url": "https://en.mercopress.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "mit-tech-review",
+    "feed_title": "MIT Technology Review",
+    "title": "MIT Technology Review sample update 2",
+    "url": "https://www.technologyreview.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -132,7 +772,31 @@
     "feed_title": "NASA Breaking News",
     "title": "NASA Breaking News sample update 2",
     "url": "https://www.nasa.gov/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nature",
+    "feed_title": "Nature",
+    "title": "Nature sample update 2",
+    "url": "https://www.nature.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "npr-world",
+    "feed_title": "NPR - World",
+    "title": "NPR - World sample update 2",
+    "url": "https://www.npr.org/sections/world/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "nytimes-world",
+    "feed_title": "The New York Times - World",
+    "title": "The New York Times - World sample update 2",
+    "url": "https://www.nytimes.com/section/world",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -140,7 +804,23 @@
     "feed_title": "OECD Development Matters",
     "title": "OECD Development Matters sample update 2",
     "url": "https://oecdecoscope.blog/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "oilprice",
+    "feed_title": "OilPrice.com",
+    "title": "OilPrice.com sample update 2",
+    "url": "https://oilprice.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "paho-news",
+    "feed_title": "PAHO - News",
+    "title": "PAHO - News sample update 2",
+    "url": "https://www.paho.org/en/news",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -148,7 +828,119 @@
     "feed_title": "Reuters - World News",
     "title": "Reuters - World News sample update 2",
     "url": "https://www.reuters.com/world/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "science-magazine",
+    "feed_title": "Science Magazine - News",
+    "title": "Science Magazine - News sample update 2",
+    "url": "https://www.science.org/news",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "sciencedaily",
+    "feed_title": "ScienceDaily - Latest",
+    "title": "ScienceDaily - Latest sample update 2",
+    "url": "https://www.sciencedaily.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "securityweek",
+    "feed_title": "SecurityWeek",
+    "title": "SecurityWeek sample update 2",
+    "url": "https://www.securityweek.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "spiegel-international",
+    "feed_title": "Der Spiegel - International",
+    "title": "Der Spiegel - International sample update 2",
+    "url": "https://www.spiegel.de/international/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "techcrunch",
+    "feed_title": "TechCrunch",
+    "title": "TechCrunch sample update 2",
+    "url": "https://techcrunch.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-hacker-news",
+    "feed_title": "The Hacker News",
+    "title": "The Hacker News sample update 2",
+    "url": "https://thehackernews.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-hindu-international",
+    "feed_title": "The Hindu - International",
+    "title": "The Hindu - International sample update 2",
+    "url": "https://www.thehindu.com/news/international/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "the-verge",
+    "feed_title": "The Verge",
+    "title": "The Verge sample update 2",
+    "url": "https://www.theverge.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "times-of-india-world",
+    "feed_title": "Times of India - World",
+    "title": "Times of India - World sample update 2",
+    "url": "https://timesofindia.indiatimes.com/world",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "times-of-israel",
+    "feed_title": "The Times of Israel",
+    "title": "The Times of Israel sample update 2",
+    "url": "https://www.timesofisrael.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "uk-gov-news",
+    "feed_title": "UK Government - News and Communications",
+    "title": "UK Government - News and Communications sample update 2",
+    "url": "https://www.gov.uk/search/news-and-communications",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "un-news",
+    "feed_title": "UN News",
+    "title": "UN News sample update 2",
+    "url": "https://news.un.org/en/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "un-press",
+    "feed_title": "United Nations - Press Releases",
+    "title": "United Nations - Press Releases sample update 2",
+    "url": "https://www.un.org/press/en/",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "unep-news",
+    "feed_title": "UNEP - News",
+    "title": "UNEP - News sample update 2",
+    "url": "https://www.unep.org/news-and-stories",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   },
   {
@@ -156,7 +948,15 @@
     "feed_title": "World Health Organization - News",
     "title": "World Health Organization - News sample update 2",
     "url": "https://www.who.int/",
-    "published": "2026-01-12T21:38:39.187910Z",
+    "published": "2026-01-13T10:51:33.482030Z",
+    "summary": "Demo item generated for the prototype feed viewer."
+  },
+  {
+    "feed_id": "wired",
+    "feed_title": "Wired",
+    "title": "Wired sample update 2",
+    "url": "https://www.wired.com/",
+    "published": "2026-01-13T10:51:33.482030Z",
     "summary": "Demo item generated for the prototype feed viewer."
   }
 ]

@@ -1,0 +1,14 @@
+id: krebs-on-security
+title: Krebs on Security
+site_url: https://krebsonsecurity.com/
+feed_url: https://krebsonsecurity.com/feed/
+format: rss
+category: cybersecurity_privacy
+tags:
+  - cybersecurity
+  - privacy
+language: en
+region: NA
+source_type: independent
+status: active
+added: "2026-01-13"

@@ -1,0 +1,14 @@
+id: paho-news
+title: PAHO - News
+site_url: https://www.paho.org/en/news
+feed_url: https://www.paho.org/en/rss.xml
+format: rss
+category: health_medicine
+tags:
+  - public-health
+  - medicine
+language: en
+region: NA
+source_type: ngo
+status: active
+added: "2026-01-13"

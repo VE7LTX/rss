@@ -2,3 +2,4 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+scripts/tools/seed_report*.json

@@ -1,0 +1,14 @@
+id: allafrica-headlines
+title: AllAfrica - Latest Headlines
+site_url: https://allafrica.com/
+feed_url: https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - journalism
+language: en
+region: AF
+source_type: publisher
+status: active
+added: "2026-01-13"

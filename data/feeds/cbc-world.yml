@@ -1,0 +1,14 @@
+id: cbc-world
+title: CBC News - World
+site_url: https://www.cbc.ca/news/world
+feed_url: https://www.cbc.ca/cmlink/rss-world
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

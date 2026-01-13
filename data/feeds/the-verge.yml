@@ -1,0 +1,14 @@
+id: the-verge
+title: The Verge
+site_url: https://www.theverge.com/
+feed_url: https://www.theverge.com/rss/index.xml
+format: rss
+category: technology
+tags:
+  - hardware
+  - digital-culture
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

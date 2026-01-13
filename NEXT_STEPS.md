@@ -32,11 +32,10 @@ This document tracks sequencing for the MVP and beyond. Items marked done are co
 - Tests live in `tests/`.
 - Run with `python -m unittest discover -s tests`.
 
-## 7) Expand seed feeds (next)
+## 7) Expand seed feeds (done)
 
-- Target 50-100 feeds across 12-18 categories.
-- Balance regions and source types.
-- Validate and rebuild outputs before commit.
+- Seeded 60 feeds across 18 categories, 11 regions, and 7 source types.
+- Validation and build outputs updated to match the expanded dataset.
 
 ## 8) Health checks (next)
 

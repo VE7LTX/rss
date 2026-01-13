@@ -25,12 +25,20 @@ python -m http.server 8000
 
 Open `http://localhost:8000/public/index.html`.
 
+## Current seed coverage
+
+- 60 feeds
+- 18 categories
+- 11 regions
+- 7 source types
+
 ## Documentation
 
 - Setup and startup: `setup.md`
 - Feed schema: `docs/schema.md`
 - UI usage: `docs/prototype.md`
 - Testing guidance: `docs/testing.md`
+- Feed seeding tool: `scripts/tools/seed_feeds.py`
 - Roadmap and sequencing: `NEXT_STEPS.md`
 
 ## Project layout

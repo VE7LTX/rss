@@ -1,0 +1,14 @@
+id: techcrunch
+title: TechCrunch
+site_url: https://techcrunch.com/
+feed_url: https://techcrunch.com/feed/
+format: rss
+category: technology
+tags:
+  - startups
+  - venture-capital
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

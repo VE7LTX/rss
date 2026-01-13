@@ -1,0 +1,14 @@
+id: wired
+title: Wired
+site_url: https://www.wired.com/
+feed_url: https://www.wired.com/feed/rss
+format: rss
+category: technology
+tags:
+  - web
+  - digital-culture
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

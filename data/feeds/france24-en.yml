@@ -1,0 +1,14 @@
+id: france24-en
+title: France 24 - English
+site_url: https://www.france24.com/en/
+feed_url: https://www.france24.com/en/rss
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: EU-W
+source_type: publisher
+status: active
+added: "2026-01-13"

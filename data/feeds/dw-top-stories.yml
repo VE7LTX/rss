@@ -1,0 +1,14 @@
+id: dw-top-stories
+title: DW - Top Stories
+site_url: https://www.dw.com/en/top-stories/s-9097
+feed_url: https://rss.dw.com/xml/rss-en-all
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - journalism
+language: en
+region: EU
+source_type: publisher
+status: active
+added: "2026-01-13"

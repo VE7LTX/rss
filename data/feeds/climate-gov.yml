@@ -1,0 +1,14 @@
+id: climate-gov
+title: Climate.gov
+site_url: https://www.climate.gov/
+feed_url: https://www.climate.gov/rss.xml
+format: rss
+category: environment_climate
+tags:
+  - climate
+  - environment
+language: en
+region: NA
+source_type: government
+status: active
+added: "2026-01-13"

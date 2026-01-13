@@ -1,0 +1,14 @@
+id: nytimes-world
+title: The New York Times - World
+site_url: https://www.nytimes.com/section/world
+feed_url: https://rss.nytimes.com/services/xml/rss/nyt/World.xml
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - analysis
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

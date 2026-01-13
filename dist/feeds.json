@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-13T03:38:39.182910Z",
+  "generated_at": "2026-01-13T16:51:33.477029Z",
   "categories": [
     {
       "id": "news_current_affairs",
@@ -819,6 +819,126 @@
   ],
   "feeds": [
     {
+      "id": "abc-au-news",
+      "title": "ABC News (Australia)",
+      "site_url": "https://www.abc.net.au/news/",
+      "feed_url": "https://www.abc.net.au/news/feed/45910/rss.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "OC-AU",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Oceania \u2014 Australia"
+    },
+    {
+      "id": "africanews",
+      "title": "Africanews - Latest",
+      "site_url": "https://www.africanews.com/",
+      "feed_url": "https://www.africanews.com/feed/",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "AF",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Africa"
+    },
+    {
+      "id": "al-jazeera-all",
+      "title": "Al Jazeera - All News",
+      "site_url": "https://www.aljazeera.com/",
+      "feed_url": "https://www.aljazeera.com/xml/rss/all.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "allafrica-headlines",
+      "title": "AllAfrica - Latest Headlines",
+      "site_url": "https://allafrica.com/",
+      "feed_url": "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "AF",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "Africa"
+    },
+    {
+      "id": "ars-technica",
+      "title": "Ars Technica",
+      "site_url": "https://arstechnica.com/",
+      "feed_url": "http://feeds.arstechnica.com/arstechnica/index",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "hardware",
+        "web"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "Hardware",
+        "Web"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
       "id": "associated-press-top-news",
       "title": "Associated Press Top News",
       "site_url": "https://apnews.com/",
@@ -841,6 +961,54 @@
       ],
       "language_name": "English",
       "region_name": "Global"
+    },
+    {
+      "id": "aviation-week",
+      "title": "Aviation Week",
+      "site_url": "https://aviationweek.com/",
+      "feed_url": "https://aviationweek.com/rss.xml",
+      "format": "rss",
+      "category": "transportation_infrastructure",
+      "tags": [
+        "transportation",
+        "infrastructure"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Transportation & Infrastructure",
+      "tag_titles": [
+        "Transportation",
+        "Infrastructure"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "bbc-culture",
+      "title": "BBC News - Entertainment & Arts",
+      "site_url": "https://www.bbc.com/news/entertainment_and_arts",
+      "feed_url": "https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml",
+      "format": "rss",
+      "category": "arts_entertainment",
+      "tags": [
+        "arts",
+        "film-tv"
+      ],
+      "language": "en",
+      "region": "EU",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Arts & Entertainment",
+      "tag_titles": [
+        "Arts",
+        "Film & TV"
+      ],
+      "language_name": "English",
+      "region_name": "Europe"
     },
     {
       "id": "bbc-world",
@@ -867,12 +1035,132 @@
       "region_name": "Global"
     },
     {
+      "id": "bleepingcomputer",
+      "title": "BleepingComputer",
+      "site_url": "https://www.bleepingcomputer.com/",
+      "feed_url": "https://www.bleepingcomputer.com/feed/",
+      "format": "rss",
+      "category": "cybersecurity_privacy",
+      "tags": [
+        "cybersecurity",
+        "privacy"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Cybersecurity & Privacy",
+      "tag_titles": [
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "cbc-world",
+      "title": "CBC News - World",
+      "site_url": "https://www.cbc.ca/news/world",
+      "feed_url": "https://www.cbc.ca/cmlink/rss-world",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "cdc-newsroom",
+      "title": "CDC - Newsroom",
+      "site_url": "https://www.cdc.gov/media/",
+      "feed_url": "https://tools.cdc.gov/api/v2/resources/media/132608.rss",
+      "format": "rss",
+      "category": "health_medicine",
+      "tags": [
+        "public-health",
+        "medicine"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Health & Medicine",
+      "tag_titles": [
+        "Public Health",
+        "Medicine"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "cisa-alerts",
+      "title": "CISA Alerts",
+      "site_url": "https://www.cisa.gov/",
+      "feed_url": "https://www.cisa.gov/uscert/ncas/alerts.xml",
+      "format": "rss",
+      "category": "cybersecurity_privacy",
+      "tags": [
+        "cybersecurity",
+        "government"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Cybersecurity & Privacy",
+      "tag_titles": [
+        "Cybersecurity",
+        "Government"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "climate-gov",
+      "title": "Climate.gov",
+      "site_url": "https://www.climate.gov/",
+      "feed_url": "https://www.climate.gov/rss.xml",
+      "format": "rss",
+      "category": "environment_climate",
+      "tags": [
+        "climate",
+        "environment"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Environment & Climate",
+      "tag_titles": [
+        "Climate",
+        "Environment"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
       "id": "cloudflare-blog",
       "title": "The Cloudflare Blog",
       "site_url": "https://blog.cloudflare.com/",
       "feed_url": "https://blog.cloudflare.com/rss/",
       "format": "rss",
-      "category": "infrastructure_cloud_devops",
+      "category": "technology",
       "tags": [
         "infrastructure",
         "cybersecurity"
@@ -882,13 +1170,133 @@
       "source_type": "corporate",
       "status": "active",
       "added": "2026-01-08",
-      "category_title": "Infrastructure, Cloud & DevOps",
+      "category_title": "Technology",
       "tag_titles": [
         "Infrastructure",
         "Cybersecurity"
       ],
       "language_name": "English",
       "region_name": "Global"
+    },
+    {
+      "id": "cnbc-top",
+      "title": "CNBC - Top News",
+      "site_url": "https://www.cnbc.com/world/?region=world",
+      "feed_url": "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+      "format": "rss",
+      "category": "finance_markets",
+      "tags": [
+        "markets",
+        "finance"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Finance & Markets",
+      "tag_titles": [
+        "Markets",
+        "Finance"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "cnn-world",
+      "title": "CNN - World",
+      "site_url": "https://www.cnn.com/world",
+      "feed_url": "http://rss.cnn.com/rss/edition_world.rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "dw-top-stories",
+      "title": "DW - Top Stories",
+      "site_url": "https://www.dw.com/en/top-stories/s-9097",
+      "feed_url": "https://rss.dw.com/xml/rss-en-all",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "EU",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "Europe"
+    },
+    {
+      "id": "ecb-press",
+      "title": "European Central Bank - Press Releases",
+      "site_url": "https://www.ecb.europa.eu/press/pressreleases/html/index.en.html",
+      "feed_url": "https://www.ecb.europa.eu/rss/press.html",
+      "format": "rss",
+      "category": "economics_macro_policy",
+      "tags": [
+        "economics",
+        "policy"
+      ],
+      "language": "en",
+      "region": "EU",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Economics & Monetary Policy",
+      "tag_titles": [
+        "Economics",
+        "Policy"
+      ],
+      "language_name": "English",
+      "region_name": "Europe"
+    },
+    {
+      "id": "edsurge",
+      "title": "EdSurge",
+      "site_url": "https://www.edsurge.com/",
+      "feed_url": "https://www.edsurge.com/rss",
+      "format": "rss",
+      "category": "education_learning",
+      "tags": [
+        "education",
+        "web"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Education & Learning",
+      "tag_titles": [
+        "Education",
+        "Web"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
     },
     {
       "id": "eff-updates",
@@ -915,6 +1323,78 @@
       "region_name": "North America"
     },
     {
+      "id": "eia-today-in-energy",
+      "title": "U.S. EIA - Today in Energy",
+      "site_url": "https://www.eia.gov/todayinenergy/",
+      "feed_url": "https://www.eia.gov/rss/todayinenergy.xml",
+      "format": "rss",
+      "category": "energy_systems",
+      "tags": [
+        "energy",
+        "markets"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Energy Systems",
+      "tag_titles": [
+        "Energy",
+        "Markets"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "el-pais-portada",
+      "title": "El Pais - Portada",
+      "site_url": "https://elpais.com/",
+      "feed_url": "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "journalism"
+      ],
+      "language": "es",
+      "region": "EU-S",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Journalism"
+      ],
+      "language_name": "Spanish",
+      "region_name": "Europe \u2014 South"
+    },
+    {
+      "id": "esa-activities",
+      "title": "European Space Agency - Activities",
+      "site_url": "https://www.esa.int/",
+      "feed_url": "https://www.esa.int/rssfeed/Our_Activities",
+      "format": "rss",
+      "category": "science_research",
+      "tags": [
+        "space",
+        "science"
+      ],
+      "language": "en",
+      "region": "EU",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Science & Research",
+      "tag_titles": [
+        "Space",
+        "Science"
+      ],
+      "language_name": "English",
+      "region_name": "Europe"
+    },
+    {
       "id": "fao-news",
       "title": "FAO News",
       "site_url": "https://www.fao.org/",
@@ -934,6 +1414,102 @@
       "tag_titles": [
         "Agriculture",
         "Food Systems"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "france24-en",
+      "title": "France 24 - English",
+      "site_url": "https://www.france24.com/en/",
+      "feed_url": "https://www.france24.com/en/rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "EU-W",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Europe \u2014 West"
+    },
+    {
+      "id": "google-research",
+      "title": "Google Research Blog",
+      "site_url": "https://research.google/blog/",
+      "feed_url": "https://research.google/blog/rss/",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "ai",
+        "machine-learning"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "corporate",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "AI",
+        "Machine Learning"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "guardian-world",
+      "title": "The Guardian - World",
+      "site_url": "https://www.theguardian.com/world",
+      "feed_url": "https://www.theguardian.com/world/rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "EU-W",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "Europe \u2014 West"
+    },
+    {
+      "id": "hacker-news",
+      "title": "Hacker News",
+      "site_url": "https://news.ycombinator.com/",
+      "feed_url": "https://news.ycombinator.com/rss",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "programming-languages",
+        "open-source"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "community",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "Programming Languages",
+        "Open Source"
       ],
       "language_name": "English",
       "region_name": "Global"
@@ -963,6 +1539,150 @@
       "region_name": "Global"
     },
     {
+      "id": "japan-times",
+      "title": "The Japan Times",
+      "site_url": "https://www.japantimes.co.jp/",
+      "feed_url": "https://www.japantimes.co.jp/feed/",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "AS-E",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "Asia \u2014 East"
+    },
+    {
+      "id": "krebs-on-security",
+      "title": "Krebs on Security",
+      "site_url": "https://krebsonsecurity.com/",
+      "feed_url": "https://krebsonsecurity.com/feed/",
+      "format": "rss",
+      "category": "cybersecurity_privacy",
+      "tags": [
+        "cybersecurity",
+        "privacy"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "independent",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Cybersecurity & Privacy",
+      "tag_titles": [
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "le-monde-une",
+      "title": "Le Monde - A la Une",
+      "site_url": "https://www.lemonde.fr/",
+      "feed_url": "https://www.lemonde.fr/rss/une.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "journalism"
+      ],
+      "language": "fr",
+      "region": "EU-W",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Journalism"
+      ],
+      "language_name": "French",
+      "region_name": "Europe \u2014 West"
+    },
+    {
+      "id": "marketwatch-top",
+      "title": "MarketWatch - Top Stories",
+      "site_url": "https://www.marketwatch.com/",
+      "feed_url": "https://feeds.marketwatch.com/marketwatch/topstories/",
+      "format": "rss",
+      "category": "finance_markets",
+      "tags": [
+        "markets",
+        "finance"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Finance & Markets",
+      "tag_titles": [
+        "Markets",
+        "Finance"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "mercopress",
+      "title": "MercoPress",
+      "site_url": "https://en.mercopress.com/",
+      "feed_url": "https://en.mercopress.com/rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "SA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "South America"
+    },
+    {
+      "id": "mit-tech-review",
+      "title": "MIT Technology Review",
+      "site_url": "https://www.technologyreview.com/",
+      "feed_url": "https://www.technologyreview.com/feed/",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "ai",
+        "data-science"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "AI",
+        "Data Science"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
       "id": "nasa-breaking-news",
       "title": "NASA Breaking News",
       "site_url": "https://www.nasa.gov/",
@@ -985,6 +1705,78 @@
       ],
       "language_name": "English",
       "region_name": "Global"
+    },
+    {
+      "id": "nature",
+      "title": "Nature",
+      "site_url": "https://www.nature.com/",
+      "feed_url": "https://www.nature.com/nature.rss",
+      "format": "rss",
+      "category": "science_research",
+      "tags": [
+        "science",
+        "research"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Science & Research",
+      "tag_titles": [
+        "Science",
+        "Research"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "npr-world",
+      "title": "NPR - World",
+      "site_url": "https://www.npr.org/sections/world/",
+      "feed_url": "https://feeds.npr.org/1004/rss.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "journalism"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Journalism"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "nytimes-world",
+      "title": "The New York Times - World",
+      "site_url": "https://www.nytimes.com/section/world",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "analysis"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Analysis"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
     },
     {
       "id": "oecd-development",
@@ -1011,6 +1803,54 @@
       "region_name": "Global"
     },
     {
+      "id": "oilprice",
+      "title": "OilPrice.com",
+      "site_url": "https://oilprice.com/",
+      "feed_url": "https://oilprice.com/rss/main",
+      "format": "rss",
+      "category": "energy_systems",
+      "tags": [
+        "energy",
+        "oil-gas"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Energy Systems",
+      "tag_titles": [
+        "Energy",
+        "Oil & Gas"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "paho-news",
+      "title": "PAHO - News",
+      "site_url": "https://www.paho.org/en/news",
+      "feed_url": "https://www.paho.org/en/rss.xml",
+      "format": "rss",
+      "category": "health_medicine",
+      "tags": [
+        "public-health",
+        "medicine"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "ngo",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Health & Medicine",
+      "tag_titles": [
+        "Public Health",
+        "Medicine"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
       "id": "reuters-world",
       "title": "Reuters - World News",
       "site_url": "https://www.reuters.com/world/",
@@ -1030,6 +1870,342 @@
       "tag_titles": [
         "Global",
         "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "science-magazine",
+      "title": "Science Magazine - News",
+      "site_url": "https://www.science.org/news",
+      "feed_url": "https://www.science.org/rss/news_current.xml",
+      "format": "rss",
+      "category": "science_research",
+      "tags": [
+        "science",
+        "research"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Science & Research",
+      "tag_titles": [
+        "Science",
+        "Research"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "sciencedaily",
+      "title": "ScienceDaily - Latest",
+      "site_url": "https://www.sciencedaily.com/",
+      "feed_url": "https://www.sciencedaily.com/rss/all.xml",
+      "format": "rss",
+      "category": "science_research",
+      "tags": [
+        "science",
+        "research"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Science & Research",
+      "tag_titles": [
+        "Science",
+        "Research"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "securityweek",
+      "title": "SecurityWeek",
+      "site_url": "https://www.securityweek.com/",
+      "feed_url": "https://www.securityweek.com/feed/",
+      "format": "rss",
+      "category": "cybersecurity_privacy",
+      "tags": [
+        "cybersecurity",
+        "analysis"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Cybersecurity & Privacy",
+      "tag_titles": [
+        "Cybersecurity",
+        "Analysis"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "spiegel-international",
+      "title": "Der Spiegel - International",
+      "site_url": "https://www.spiegel.de/international/",
+      "feed_url": "https://www.spiegel.de/international/index.rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "analysis"
+      ],
+      "language": "en",
+      "region": "EU-W",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Analysis"
+      ],
+      "language_name": "English",
+      "region_name": "Europe \u2014 West"
+    },
+    {
+      "id": "techcrunch",
+      "title": "TechCrunch",
+      "site_url": "https://techcrunch.com/",
+      "feed_url": "https://techcrunch.com/feed/",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "startups",
+        "venture-capital"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "Startups",
+        "Venture Capital"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "the-hacker-news",
+      "title": "The Hacker News",
+      "site_url": "https://thehackernews.com/",
+      "feed_url": "https://feeds.feedburner.com/TheHackersNews",
+      "format": "rss",
+      "category": "cybersecurity_privacy",
+      "tags": [
+        "cybersecurity",
+        "privacy"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Cybersecurity & Privacy",
+      "tag_titles": [
+        "Cybersecurity",
+        "Privacy"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "the-hindu-international",
+      "title": "The Hindu - International",
+      "site_url": "https://www.thehindu.com/news/international/",
+      "feed_url": "https://www.thehindu.com/news/international/feeder/default.rss",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "analysis"
+      ],
+      "language": "en",
+      "region": "AS-S",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Analysis"
+      ],
+      "language_name": "English",
+      "region_name": "Asia \u2014 South"
+    },
+    {
+      "id": "the-verge",
+      "title": "The Verge",
+      "site_url": "https://www.theverge.com/",
+      "feed_url": "https://www.theverge.com/rss/index.xml",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "hardware",
+        "digital-culture"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "Hardware",
+        "Digital Culture"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
+      "id": "times-of-india-world",
+      "title": "Times of India - World",
+      "site_url": "https://timesofindia.indiatimes.com/world",
+      "feed_url": "https://timesofindia.indiatimes.com/rssfeeds/296589292.cms",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "AS-S",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Asia \u2014 South"
+    },
+    {
+      "id": "times-of-israel",
+      "title": "The Times of Israel",
+      "site_url": "https://www.timesofisrael.com/",
+      "feed_url": "https://www.timesofisrael.com/feed/",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "regional",
+        "politics"
+      ],
+      "language": "en",
+      "region": "ME",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Regional",
+        "Politics"
+      ],
+      "language_name": "English",
+      "region_name": "Middle East"
+    },
+    {
+      "id": "uk-gov-news",
+      "title": "UK Government - News and Communications",
+      "site_url": "https://www.gov.uk/search/news-and-communications",
+      "feed_url": "https://www.gov.uk/search/news-and-communications.atom",
+      "format": "atom",
+      "category": "politics_government",
+      "tags": [
+        "policy",
+        "government"
+      ],
+      "language": "en",
+      "region": "EU-W",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Politics & Government",
+      "tag_titles": [
+        "Policy",
+        "Government"
+      ],
+      "language_name": "English",
+      "region_name": "Europe \u2014 West"
+    },
+    {
+      "id": "un-news",
+      "title": "UN News",
+      "site_url": "https://news.un.org/en/",
+      "feed_url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+      "format": "rss",
+      "category": "international_development_aid",
+      "tags": [
+        "global",
+        "humanitarian"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "International Development & Aid",
+      "tag_titles": [
+        "Global",
+        "Humanitarian"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "un-press",
+      "title": "United Nations - Press Releases",
+      "site_url": "https://www.un.org/press/en/",
+      "feed_url": "https://www.un.org/press/en/rss.xml",
+      "format": "rss",
+      "category": "international_relations_security",
+      "tags": [
+        "geopolitics",
+        "policy"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "International Relations & Security",
+      "tag_titles": [
+        "Geopolitics",
+        "Policy"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "unep-news",
+      "title": "UNEP - News",
+      "site_url": "https://www.unep.org/news-and-stories",
+      "feed_url": "https://www.unep.org/rss.xml",
+      "format": "rss",
+      "category": "environment_climate",
+      "tags": [
+        "environment",
+        "climate"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "ngo",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Environment & Climate",
+      "tag_titles": [
+        "Environment",
+        "Climate"
       ],
       "language_name": "English",
       "region_name": "Global"
@@ -1057,6 +2233,30 @@
       ],
       "language_name": "English",
       "region_name": "Global"
+    },
+    {
+      "id": "wired",
+      "title": "Wired",
+      "site_url": "https://www.wired.com/",
+      "feed_url": "https://www.wired.com/feed/rss",
+      "format": "rss",
+      "category": "technology",
+      "tags": [
+        "web",
+        "digital-culture"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Technology",
+      "tag_titles": [
+        "Web",
+        "Digital Culture"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
     }
   ]
 }

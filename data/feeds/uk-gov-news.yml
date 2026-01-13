@@ -1,0 +1,14 @@
+id: uk-gov-news
+title: UK Government - News and Communications
+site_url: https://www.gov.uk/search/news-and-communications
+feed_url: https://www.gov.uk/search/news-and-communications.atom
+format: atom
+category: politics_government
+tags:
+  - policy
+  - government
+language: en
+region: EU-W
+source_type: government
+status: active
+added: "2026-01-13"

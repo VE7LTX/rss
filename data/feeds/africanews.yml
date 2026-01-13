@@ -1,0 +1,14 @@
+id: africanews
+title: Africanews - Latest
+site_url: https://www.africanews.com/
+feed_url: https://www.africanews.com/feed/
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - breaking
+language: en
+region: AF
+source_type: publisher
+status: active
+added: "2026-01-13"

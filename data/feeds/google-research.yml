@@ -1,0 +1,14 @@
+id: google-research
+title: Google Research Blog
+site_url: https://research.google/blog/
+feed_url: https://research.google/blog/rss/
+format: rss
+category: technology
+tags:
+  - ai
+  - machine-learning
+language: en
+region: NA
+source_type: corporate
+status: active
+added: "2026-01-13"

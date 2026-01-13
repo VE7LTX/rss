@@ -1,0 +1,14 @@
+id: cisa-alerts
+title: CISA Alerts
+site_url: https://www.cisa.gov/
+feed_url: https://www.cisa.gov/uscert/ncas/alerts.xml
+format: rss
+category: cybersecurity_privacy
+tags:
+  - cybersecurity
+  - government
+language: en
+region: NA
+source_type: government
+status: active
+added: "2026-01-13"

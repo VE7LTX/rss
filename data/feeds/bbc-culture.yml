@@ -1,0 +1,14 @@
+id: bbc-culture
+title: BBC News - Entertainment & Arts
+site_url: https://www.bbc.com/news/entertainment_and_arts
+feed_url: https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml
+format: rss
+category: arts_entertainment
+tags:
+  - arts
+  - film-tv
+language: en
+region: EU
+source_type: publisher
+status: active
+added: "2026-01-13"

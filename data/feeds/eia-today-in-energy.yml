@@ -1,0 +1,14 @@
+id: eia-today-in-energy
+title: U.S. EIA - Today in Energy
+site_url: https://www.eia.gov/todayinenergy/
+feed_url: https://www.eia.gov/rss/todayinenergy.xml
+format: rss
+category: energy_systems
+tags:
+  - energy
+  - markets
+language: en
+region: NA
+source_type: government
+status: active
+added: "2026-01-13"

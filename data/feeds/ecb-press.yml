@@ -1,0 +1,14 @@
+id: ecb-press
+title: European Central Bank - Press Releases
+site_url: https://www.ecb.europa.eu/press/pressreleases/html/index.en.html
+feed_url: https://www.ecb.europa.eu/rss/press.html
+format: rss
+category: economics_macro_policy
+tags:
+  - economics
+  - policy
+language: en
+region: EU
+source_type: government
+status: active
+added: "2026-01-13"

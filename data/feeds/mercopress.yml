@@ -1,0 +1,14 @@
+id: mercopress
+title: MercoPress
+site_url: https://en.mercopress.com/
+feed_url: https://en.mercopress.com/rss
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - journalism
+language: en
+region: SA
+source_type: publisher
+status: active
+added: "2026-01-13"

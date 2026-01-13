@@ -1,0 +1,14 @@
+id: marketwatch-top
+title: MarketWatch - Top Stories
+site_url: https://www.marketwatch.com/
+feed_url: https://feeds.marketwatch.com/marketwatch/topstories/
+format: rss
+category: finance_markets
+tags:
+  - markets
+  - finance
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

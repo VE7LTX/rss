@@ -1,0 +1,14 @@
+id: oilprice
+title: OilPrice.com
+site_url: https://oilprice.com/
+feed_url: https://oilprice.com/rss/main
+format: rss
+category: energy_systems
+tags:
+  - energy
+  - oil-gas
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

@@ -1,0 +1,14 @@
+id: aviation-week
+title: Aviation Week
+site_url: https://aviationweek.com/
+feed_url: https://aviationweek.com/rss.xml
+format: rss
+category: transportation_infrastructure
+tags:
+  - transportation
+  - infrastructure
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

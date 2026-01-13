@@ -1,0 +1,14 @@
+id: times-of-israel
+title: The Times of Israel
+site_url: https://www.timesofisrael.com/
+feed_url: https://www.timesofisrael.com/feed/
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - politics
+language: en
+region: ME
+source_type: publisher
+status: active
+added: "2026-01-13"

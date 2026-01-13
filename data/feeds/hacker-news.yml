@@ -1,0 +1,14 @@
+id: hacker-news
+title: Hacker News
+site_url: https://news.ycombinator.com/
+feed_url: https://news.ycombinator.com/rss
+format: rss
+category: technology
+tags:
+  - programming-languages
+  - open-source
+language: en
+region: GLOBAL
+source_type: community
+status: active
+added: "2026-01-13"

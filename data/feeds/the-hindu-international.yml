@@ -1,0 +1,14 @@
+id: the-hindu-international
+title: The Hindu - International
+site_url: https://www.thehindu.com/news/international/
+feed_url: https://www.thehindu.com/news/international/feeder/default.rss
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - analysis
+language: en
+region: AS-S
+source_type: publisher
+status: active
+added: "2026-01-13"

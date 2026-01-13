@@ -1,0 +1,14 @@
+id: unep-news
+title: UNEP - News
+site_url: https://www.unep.org/news-and-stories
+feed_url: https://www.unep.org/rss.xml
+format: rss
+category: environment_climate
+tags:
+  - environment
+  - climate
+language: en
+region: GLOBAL
+source_type: ngo
+status: active
+added: "2026-01-13"

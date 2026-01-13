@@ -1,0 +1,14 @@
+id: times-of-india-world
+title: Times of India - World
+site_url: https://timesofindia.indiatimes.com/world
+feed_url: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - breaking
+language: en
+region: AS-S
+source_type: publisher
+status: active
+added: "2026-01-13"

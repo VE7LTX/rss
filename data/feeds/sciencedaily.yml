@@ -1,0 +1,14 @@
+id: sciencedaily
+title: ScienceDaily - Latest
+site_url: https://www.sciencedaily.com/
+feed_url: https://www.sciencedaily.com/rss/all.xml
+format: rss
+category: science_research
+tags:
+  - science
+  - research
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

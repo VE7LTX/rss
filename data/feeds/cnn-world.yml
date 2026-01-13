@@ -1,0 +1,14 @@
+id: cnn-world
+title: CNN - World
+site_url: https://www.cnn.com/world
+feed_url: http://rss.cnn.com/rss/edition_world.rss
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

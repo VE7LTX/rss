@@ -1,0 +1,14 @@
+id: abc-au-news
+title: ABC News (Australia)
+site_url: https://www.abc.net.au/news/
+feed_url: https://www.abc.net.au/news/feed/45910/rss.xml
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - breaking
+language: en
+region: OC-AU
+source_type: publisher
+status: active
+added: "2026-01-13"

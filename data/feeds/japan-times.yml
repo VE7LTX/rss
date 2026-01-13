@@ -1,0 +1,14 @@
+id: japan-times
+title: The Japan Times
+site_url: https://www.japantimes.co.jp/
+feed_url: https://www.japantimes.co.jp/feed/
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - journalism
+language: en
+region: AS-E
+source_type: publisher
+status: active
+added: "2026-01-13"

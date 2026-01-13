@@ -1,0 +1,14 @@
+id: bleepingcomputer
+title: BleepingComputer
+site_url: https://www.bleepingcomputer.com/
+feed_url: https://www.bleepingcomputer.com/feed/
+format: rss
+category: cybersecurity_privacy
+tags:
+  - cybersecurity
+  - privacy
+language: en
+region: NA
+source_type: publisher
+status: active
+added: "2026-01-13"

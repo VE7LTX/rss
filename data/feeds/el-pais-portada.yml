@@ -1,0 +1,14 @@
+id: el-pais-portada
+title: El Pais - Portada
+site_url: https://elpais.com/
+feed_url: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - journalism
+language: es
+region: EU-S
+source_type: publisher
+status: active
+added: "2026-01-13"

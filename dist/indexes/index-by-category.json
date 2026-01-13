@@ -1,14 +1,83 @@
 {
   "news_current_affairs": [
+    "abc-au-news",
+    "africanews",
+    "al-jazeera-all",
+    "allafrica-headlines",
     "associated-press-top-news",
     "bbc-world",
-    "reuters-world"
+    "cbc-world",
+    "cnn-world",
+    "dw-top-stories",
+    "el-pais-portada",
+    "france24-en",
+    "guardian-world",
+    "japan-times",
+    "le-monde-une",
+    "mercopress",
+    "npr-world",
+    "nytimes-world",
+    "reuters-world",
+    "spiegel-international",
+    "the-hindu-international",
+    "times-of-india-world",
+    "times-of-israel"
   ],
-  "infrastructure_cloud_devops": [
-    "cloudflare-blog"
+  "technology": [
+    "ars-technica",
+    "cloudflare-blog",
+    "google-research",
+    "hacker-news",
+    "mit-tech-review",
+    "techcrunch",
+    "the-verge",
+    "wired"
+  ],
+  "transportation_infrastructure": [
+    "aviation-week"
+  ],
+  "arts_entertainment": [
+    "bbc-culture"
+  ],
+  "cybersecurity_privacy": [
+    "bleepingcomputer",
+    "cisa-alerts",
+    "krebs-on-security",
+    "securityweek",
+    "the-hacker-news"
+  ],
+  "health_medicine": [
+    "cdc-newsroom",
+    "paho-news",
+    "who-news"
+  ],
+  "environment_climate": [
+    "climate-gov",
+    "unep-news"
+  ],
+  "finance_markets": [
+    "cnbc-top",
+    "marketwatch-top"
+  ],
+  "economics_macro_policy": [
+    "ecb-press"
+  ],
+  "education_learning": [
+    "edsurge"
   ],
   "human_rights_civil_liberties": [
     "eff-updates"
+  ],
+  "energy_systems": [
+    "eia-today-in-energy",
+    "oilprice"
+  ],
+  "science_research": [
+    "esa-activities",
+    "nasa-breaking-news",
+    "nature",
+    "science-magazine",
+    "sciencedaily"
   ],
   "agriculture_food_systems": [
     "fao-news"
@@ -16,13 +85,14 @@
   "engineering_applied_science": [
     "ieee-spectrum"
   ],
-  "science_research": [
-    "nasa-breaking-news"
-  ],
   "international_development_aid": [
-    "oecd-development"
+    "oecd-development",
+    "un-news"
   ],
-  "health_medicine": [
-    "who-news"
+  "politics_government": [
+    "uk-gov-news"
+  ],
+  "international_relations_security": [
+    "un-press"
   ]
 }

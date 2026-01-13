@@ -1,0 +1,14 @@
+id: spiegel-international
+title: Der Spiegel - International
+site_url: https://www.spiegel.de/international/
+feed_url: https://www.spiegel.de/international/index.rss
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - analysis
+language: en
+region: EU-W
+source_type: publisher
+status: active
+added: "2026-01-13"

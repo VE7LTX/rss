@@ -1,16 +1,84 @@
 {
+  "OC-AU": [
+    "abc-au-news"
+  ],
+  "AF": [
+    "africanews",
+    "allafrica-headlines"
+  ],
   "GLOBAL": [
+    "al-jazeera-all",
     "associated-press-top-news",
+    "aviation-week",
     "bbc-world",
     "cloudflare-blog",
+    "cnbc-top",
+    "cnn-world",
     "fao-news",
+    "hacker-news",
     "ieee-spectrum",
     "nasa-breaking-news",
+    "nature",
     "oecd-development",
+    "oilprice",
     "reuters-world",
+    "science-magazine",
+    "sciencedaily",
+    "the-hacker-news",
+    "un-news",
+    "un-press",
+    "unep-news",
     "who-news"
   ],
   "NA": [
-    "eff-updates"
+    "ars-technica",
+    "bleepingcomputer",
+    "cbc-world",
+    "cdc-newsroom",
+    "cisa-alerts",
+    "climate-gov",
+    "edsurge",
+    "eff-updates",
+    "eia-today-in-energy",
+    "google-research",
+    "krebs-on-security",
+    "marketwatch-top",
+    "mit-tech-review",
+    "npr-world",
+    "nytimes-world",
+    "paho-news",
+    "securityweek",
+    "techcrunch",
+    "the-verge",
+    "wired"
+  ],
+  "EU": [
+    "bbc-culture",
+    "dw-top-stories",
+    "ecb-press",
+    "esa-activities"
+  ],
+  "EU-S": [
+    "el-pais-portada"
+  ],
+  "EU-W": [
+    "france24-en",
+    "guardian-world",
+    "le-monde-une",
+    "spiegel-international",
+    "uk-gov-news"
+  ],
+  "AS-E": [
+    "japan-times"
+  ],
+  "SA": [
+    "mercopress"
+  ],
+  "AS-S": [
+    "the-hindu-international",
+    "times-of-india-world"
+  ],
+  "ME": [
+    "times-of-israel"
   ]
 }

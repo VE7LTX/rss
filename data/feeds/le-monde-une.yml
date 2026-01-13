@@ -1,0 +1,14 @@
+id: le-monde-une
+title: Le Monde - A la Une
+site_url: https://www.lemonde.fr/
+feed_url: https://www.lemonde.fr/rss/une.xml
+format: rss
+category: news_current_affairs
+tags:
+  - regional
+  - journalism
+language: fr
+region: EU-W
+source_type: publisher
+status: active
+added: "2026-01-13"
