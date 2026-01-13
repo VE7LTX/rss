@@ -1,20 +1,20 @@
 # Prototype Quickstart
 
-This prototype relies on generated outputs in `dist/` and a static UI in `public/`.
+Purpose: Run the static UI that loads generated registry outputs from `dist/`.
 
-## Validate Data
+## Validate data
 
 ```bash
 python scripts/validate/validate.py
 ```
 
-## Build Outputs
+## Build outputs
 
 ```bash
 python scripts/build/build.py
 ```
 
-## View Prototype
+## View prototype
 
 ```bash
 python -m http.server 8000

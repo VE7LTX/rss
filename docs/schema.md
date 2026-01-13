@@ -1,8 +1,8 @@
 # Feed Record Schema
 
-This document defines the minimum required fields for each feed file in `data/feeds/`.
+Purpose: Define the required metadata for each feed record and keep validation consistent across the registry.
 
-## Required Fields
+## Required fields
 
 | Field | Type | Notes |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ This document defines the minimum required fields for each feed file in `data/fe
 | `status` | string | One of: `active`, `inactive`, `moved`, `dead`. |
 | `added` | string | Date added, ISO 8601 format (YYYY-MM-DD). |
 
-## Optional Fields
+## Optional fields
 
 | Field | Type | Notes |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ status: active
 added: "2026-01-08"
 ```
 
-## File Naming
+## File naming
 
 - One feed per file.
 - File name must match the `id` (for example, `example-news.yml`).

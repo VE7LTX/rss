@@ -1,18 +1,38 @@
+"""
+YAML helper for the RSS registry tooling.
+
+This module prefers PyYAML when available but includes a tiny fallback parser so
+contributors can run validation/build steps without extra dependencies.
+The fallback parser supports only the subset of YAML used in this repo.
+"""
+
+from __future__ import annotations
+
 import re
 from pathlib import Path
+from typing import Any, Dict
 
 
-def load_yaml(path):
+def load_yaml(path: Path) -> Dict[str, Any]:
+    """Load a YAML file, falling back to a minimal parser when PyYAML is missing."""
     try:
         import yaml  # type: ignore
     except Exception:
         return _load_simple_yaml(path)
 
     with open(path, "r", encoding="utf-8") as handle:
-        return yaml.safe_load(handle)
+        data = yaml.safe_load(handle)
+
+    if data is None:
+        return {}
+    if isinstance(data, dict):
+        return data
+
+    raise ValueError(f"Expected a mapping in {path}, got {type(data).__name__}")
 
 
-def _parse_scalar(value):
+def _parse_scalar(value: str) -> str:
+    """Parse a scalar value, preserving strings while removing simple quotes."""
     text = value.strip()
     if text.startswith("\"") and text.endswith("\"") and len(text) >= 2:
         return text[1:-1]
@@ -21,9 +41,16 @@ def _parse_scalar(value):
     return text
 
 
-def _load_simple_yaml(path):
-    data = {}
-    current_list_key = None
+def _load_simple_yaml(path: Path) -> Dict[str, Any]:
+    """
+    Load a minimal YAML subset.
+
+    Supported:
+    - top-level mappings
+    - list values
+    - list items that are mappings with one level of nesting
+    """
+    data: Dict[str, Any] = {}
     current_list = None
     current_item = None
     list_mode = None
@@ -44,13 +71,11 @@ def _load_simple_yaml(path):
                 key, value = match.group(1), match.group(2)
                 if value is None or value == "":
                     data[key] = []
-                    current_list_key = key
                     current_list = data[key]
                     current_item = None
                     list_mode = "list"
                 else:
                     data[key] = _parse_scalar(value)
-                    current_list_key = None
                     current_list = None
                     current_item = None
                     list_mode = None

@@ -1,14 +1,23 @@
+"""
+Registry validation CLI.
+
+Validates feed records against the schema requirements and controlled
+vocabularies, emitting a console summary or JSON report.
+"""
+
+from __future__ import annotations
+
 import argparse
 import json
 import sys
+from dataclasses import dataclass
 from pathlib import Path
+from typing import Any, Dict, List, Set
 
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from scripts.lib.yamlish import load_yaml
-DATA_DIR = ROOT / "data"
-FEEDS_DIR = DATA_DIR / "feeds"
 
 REQUIRED_FIELDS = {
     "id",
@@ -40,10 +49,47 @@ ALLOWED_SOURCE_TYPES = {
 ALLOWED_STATUS = {"active", "inactive", "moved", "dead"}
 
 
-def load_vocab():
-    categories = load_yaml(DATA_DIR / "categories.yml").get("categories", [])
-    tags = load_yaml(DATA_DIR / "tags.yml").get("tags", [])
-    locales = load_yaml(DATA_DIR / "locales.yml")
+@dataclass
+class FeedResult:
+    """Stores validation findings for a single feed file."""
+
+    feed: str
+    errors: List[str]
+    warnings: List[str]
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Serialize the result for JSON output."""
+        return {
+            "feed": self.feed,
+            "errors": self.errors,
+            "warnings": self.warnings,
+        }
+
+
+@dataclass
+class ValidationReport:
+    """Aggregated validation results across all feeds."""
+
+    feeds_checked: int
+    errors: int
+    warnings: int
+    results: List[FeedResult]
+
+    def to_dict(self) -> Dict[str, Any]:
+        """Serialize the report for JSON output."""
+        return {
+            "feeds_checked": self.feeds_checked,
+            "errors": self.errors,
+            "warnings": self.warnings,
+            "results": [result.to_dict() for result in self.results],
+        }
+
+
+def load_vocab(data_dir: Path) -> Dict[str, Set[str]]:
+    """Load controlled vocabularies from the data directory."""
+    categories = load_yaml(data_dir / "categories.yml").get("categories", [])
+    tags = load_yaml(data_dir / "tags.yml").get("tags", [])
+    locales = load_yaml(data_dir / "locales.yml")
 
     return {
         "categories": {item["id"] for item in categories},
@@ -53,10 +99,14 @@ def load_vocab():
     }
 
 
-def validate_feed(feed_path, vocab, seen_ids):
-    errors = []
-    warnings = []
+def validate_feed(feed_path: Path, vocab: Dict[str, Set[str]], seen_ids: Set[str]) -> FeedResult:
+    """Validate a single feed YAML file and return errors/warnings."""
+    errors: List[str] = []
+    warnings: List[str] = []
+
     feed = load_yaml(feed_path)
+    if not isinstance(feed, dict):
+        return FeedResult(feed=feed_path.name, errors=["invalid_yaml_root"], warnings=[])
 
     missing = REQUIRED_FIELDS - set(feed.keys())
     if missing:
@@ -74,13 +124,15 @@ def validate_feed(feed_path, vocab, seen_ids):
     if category and category not in vocab["categories"]:
         errors.append(f"unknown_category: {category}")
 
-    tags = feed.get("tags") or []
-    if not isinstance(tags, list):
+    tags_value = feed.get("tags") or []
+    if not isinstance(tags_value, list):
         errors.append("tags_not_list")
     else:
-        unknown_tags = [tag for tag in tags if tag not in vocab["tags"]]
+        unknown_tags = [tag for tag in tags_value if tag not in vocab["tags"]]
         if unknown_tags:
             errors.append(f"unknown_tags: {unknown_tags}")
+        if not tags_value:
+            warnings.append("empty_tags")
 
     language = feed.get("language")
     if language and language not in vocab["languages"]:
@@ -102,60 +154,73 @@ def validate_feed(feed_path, vocab, seen_ids):
     if status and status not in ALLOWED_STATUS:
         errors.append(f"invalid_status: {status}")
 
-    if not feed.get("tags"):
-        warnings.append("empty_tags")
-
-    return {
-        "feed": feed_path.name,
-        "errors": errors,
-        "warnings": warnings,
-    }
+    return FeedResult(feed=feed_path.name, errors=errors, warnings=warnings)
 
 
-def main():
+def validate_all(feeds_dir: Path, vocab: Dict[str, Set[str]]) -> ValidationReport:
+    """Validate all feed files in a directory."""
+    results: List[FeedResult] = []
+    seen_ids: Set[str] = set()
+
+    for feed_path in sorted(feeds_dir.glob("*.yml")):
+        results.append(validate_feed(feed_path, vocab, seen_ids))
+
+    error_count = sum(len(result.errors) for result in results)
+    warning_count = sum(len(result.warnings) for result in results)
+
+    return ValidationReport(
+        feeds_checked=len(results),
+        errors=error_count,
+        warnings=warning_count,
+        results=results,
+    )
+
+
+def write_report(path: Path, report: ValidationReport) -> None:
+    """Write a JSON validation report to disk."""
+    path.write_text(json.dumps(report.to_dict(), indent=2), encoding="utf-8")
+
+
+def print_report(report: ValidationReport) -> None:
+    """Print a human-readable validation summary."""
+    print(f"Feeds checked: {report.feeds_checked}")
+    print(f"Errors: {report.errors} | Warnings: {report.warnings}")
+    for entry in report.results:
+        if entry.errors or entry.warnings:
+            print(f"- {entry.feed}")
+            for err in entry.errors:
+                print(f"  ERROR: {err}")
+            for warn in entry.warnings:
+                print(f"  WARN: {warn}")
+
+
+def parse_args() -> argparse.Namespace:
+    """Parse CLI arguments for the validation script."""
     parser = argparse.ArgumentParser(description="Validate RSS registry data.")
     parser.add_argument("--json", action="store_true", help="Print JSON output.")
     parser.add_argument("--out", type=str, help="Write JSON report to a file.")
-    args = parser.parse_args()
+    return parser.parse_args()
 
-    vocab = load_vocab()
-    seen_ids = set()
 
-    results = []
-    error_count = 0
-    warning_count = 0
+def main() -> None:
+    """CLI entry point."""
+    args = parse_args()
 
-    for feed_path in sorted(FEEDS_DIR.glob("*.yml")):
-        result = validate_feed(feed_path, vocab, seen_ids)
-        results.append(result)
-        error_count += len(result["errors"])
-        warning_count += len(result["warnings"])
+    data_dir = ROOT / "data"
+    feeds_dir = data_dir / "feeds"
 
-    report = {
-        "feeds_checked": len(results),
-        "errors": error_count,
-        "warnings": warning_count,
-        "results": results,
-    }
+    vocab = load_vocab(data_dir)
+    report = validate_all(feeds_dir, vocab)
 
     if args.out:
-        out_path = Path(args.out)
-        out_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
+        write_report(Path(args.out), report)
 
     if args.json:
-        print(json.dumps(report, indent=2))
+        print(json.dumps(report.to_dict(), indent=2))
     else:
-        print(f"Feeds checked: {report['feeds_checked']}")
-        print(f"Errors: {report['errors']} | Warnings: {report['warnings']}")
-        for entry in results:
-            if entry["errors"] or entry["warnings"]:
-                print(f"- {entry['feed']}")
-                for err in entry["errors"]:
-                    print(f"  ERROR: {err}")
-                for warn in entry["warnings"]:
-                    print(f"  WARN: {warn}")
+        print_report(report)
 
-    raise SystemExit(1 if error_count else 0)
+    raise SystemExit(1 if report.errors else 0)
 
 
 if __name__ == "__main__":

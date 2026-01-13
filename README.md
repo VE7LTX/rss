@@ -8,8 +8,9 @@ This project treats feeds as data, not bookmarks.
 
 - Curated feed metadata with controlled vocabularies (categories, tags, locales)
 - Validation tooling to keep entries consistent
-- Build outputs (JSON, CSV, OPML, and indexes)
+- Build outputs (JSON, CSV, OPML, indexes)
 - A static prototype UI for filtering and previewing selections
+- Unit tests to verify the core pipeline
 
 ## Quickstart
 
@@ -29,6 +30,7 @@ Open `http://localhost:8000/public/index.html`.
 - Setup and startup: `setup.md`
 - Feed schema: `docs/schema.md`
 - Prototype usage: `docs/prototype.md`
+- Testing guidance: `docs/testing.md`
 - Roadmap and sequencing: `NEXT_STEPS.md`
 
 ## Project layout
@@ -43,6 +45,7 @@ C:\rss\
   docs\
     schema.md
     prototype.md
+    testing.md
   scripts\
     lib\
     validate\
@@ -57,6 +60,10 @@ C:\rss\
     index.html
     styles.css
     app.js
+  tests\
+    test_build.py
+    test_validate.py
+    test_yamlish.py
   README.md
   NEXT_STEPS.md
   setup.md
@@ -91,11 +98,17 @@ The prototype is a static site in `public/` that loads data from `dist/`. It sup
 
 See `docs/prototype.md` for details.
 
+## Testing
+
+```bash
+python -m unittest discover -s tests
+```
+
 ## Contributing
 
 - One feed per file
 - Use the controlled vocabularies in `data/`
-- Run validation before submitting changes
+- Run validation and tests before submitting changes
 
 More guidance: `NEXT_STEPS.md`.
 

@@ -1,4 +1,9 @@
 <!doctype html>
+<!--
+  RSS Registry Prototype UI
+  Purpose: Static front-end for browsing the feed registry output in dist/.
+  Usage: Run build scripts, serve the repo, open /public/index.html.
+-->
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -8,6 +13,8 @@
   </head>
   <body>
     <div class="ambient"></div>
+
+    <!-- Hero / intro section -->
     <header class="hero">
       <div class="hero-text">
         <p class="eyebrow">RSS Encyclopedia Registry</p>
@@ -27,6 +34,7 @@
       </div>
     </header>
 
+    <!-- Main workspace: filters, results, selection, updates -->
     <main class="layout">
       <section class="panel filters">
         <h2>Filters</h2>
@@ -84,7 +92,7 @@
     </main>
 
     <footer class="footer">
-      <p>Prototype build ? Generated output in dist/ ? No external services required.</p>
+      <p>Prototype build - Generated output in dist/ - No external services required.</p>
     </footer>
 
     <script src="app.js"></script>
