@@ -1,0 +1,14 @@
+id: agfunder-news
+title: AgFunderNews
+site_url: https://agfundernews.com/
+feed_url: https://agfundernews.com/feed
+format: rss
+category: agriculture_food_systems
+tags:
+  - agriculture
+  - food-systems
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

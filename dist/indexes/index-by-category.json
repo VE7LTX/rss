@@ -4,7 +4,7 @@
     "africanews",
     "al-jazeera-all",
     "allafrica-headlines",
-    "associated-press-top-news",
+    "bbc-top-news",
     "bbc-world",
     "cbc-world",
     "cnn-world",
@@ -16,12 +16,15 @@
     "le-monde-une",
     "mercopress",
     "npr-world",
+    "nytimes-homepage",
     "nytimes-world",
-    "reuters-world",
     "spiegel-international",
     "the-hindu-international",
     "times-of-india-world",
     "times-of-israel"
+  ],
+  "agriculture_food_systems": [
+    "agfunder-news"
   ],
   "technology": [
     "ars-technica",
@@ -79,18 +82,15 @@
     "science-magazine",
     "sciencedaily"
   ],
-  "agriculture_food_systems": [
-    "fao-news"
-  ],
   "engineering_applied_science": [
     "ieee-spectrum"
   ],
-  "international_development_aid": [
-    "oecd-development",
-    "un-news"
-  ],
   "politics_government": [
     "uk-gov-news"
+  ],
+  "international_development_aid": [
+    "un-news",
+    "unocha-news"
   ],
   "international_relations_security": [
     "un-press"

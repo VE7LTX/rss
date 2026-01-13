@@ -34,3 +34,4 @@ python -m http.server 8000
 - If the server is not running, the UI falls back to demo items from `dist/items.json`.
 - Feed selections persist in local storage.
 - Re-run the build step after changing `data/`.
+- Live updates are cached for a short period; use the Refresh button to force a re-fetch.

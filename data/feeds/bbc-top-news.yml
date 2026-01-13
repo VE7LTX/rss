@@ -1,0 +1,14 @@
+id: bbc-top-news
+title: BBC News - Top Stories
+site_url: https://www.bbc.com/news
+feed_url: https://feeds.bbci.co.uk/news/rss.xml
+format: rss
+category: news_current_affairs
+tags:
+  - global
+  - breaking
+language: en
+region: GLOBAL
+source_type: publisher
+status: active
+added: "2026-01-13"

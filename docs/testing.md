@@ -14,6 +14,15 @@ python -m unittest discover -s tests
 python scripts/validate/validate.py
 ```
 
+## Health checks (network)
+
+```bash
+python scripts/validate/validate.py --health
+```
+
+Use `--health-timeout 15` for slower feeds.
+Use `--offset` and `--limit` to run batches.
+
 ## Build script
 
 ```bash

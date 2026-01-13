@@ -118,6 +118,12 @@ See `docs/prototype.md` for details.
 python -m unittest discover -s tests
 ```
 
+Optional health checks (network):
+
+```bash
+python scripts/validate/validate.py --health
+```
+
 ## Contributing
 
 - One feed per file

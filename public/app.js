@@ -60,6 +60,8 @@ const state = {
   items: [],
   /** @type {Set<string>} */
   activeTags: new Set(),
+  /** @type {Record<string, {last_published: string, last_fetched: string, item_count: number}>} */
+  feedMeta: {},
 };
 
 const elements = {
@@ -115,6 +117,35 @@ function loadSelected() {
  */
 function saveSelected() {
   window.localStorage.setItem(STORAGE_KEY, JSON.stringify([...state.selected]));
+}
+
+/**
+ * Build per-feed metadata from a list of feed items.
+ * @param {FeedItem[]} items
+ * @returns {Record<string, {last_published: string, last_fetched: string, item_count: number}>}
+ */
+function buildFeedMetaFromItems(items) {
+  const meta = {};
+  items.forEach((item) => {
+    if (!item.feed_id) return;
+    const published = item.published || "";
+    if (!meta[item.feed_id]) {
+      meta[item.feed_id] = {
+        last_published: published,
+        last_fetched: "",
+        item_count: 0,
+      };
+    }
+    meta[item.feed_id].item_count += 1;
+    if (!meta[item.feed_id].last_published) {
+      meta[item.feed_id].last_published = published;
+      return;
+    }
+    if (published && Date.parse(published) > Date.parse(meta[item.feed_id].last_published)) {
+      meta[item.feed_id].last_published = published;
+    }
+  });
+  return meta;
 }
 
 /**
@@ -298,12 +329,22 @@ function renderSelected() {
     meta.className = "feed-meta";
     meta.textContent = `${feed.category_title || feed.category} - ${feed.region_name || feed.region}`;
 
+    const status = document.createElement("div");
+    status.className = "feed-meta";
+    const feedInfo = state.feedMeta[feed.id];
+    if (feedInfo && feedInfo.last_published) {
+      status.textContent = `Last update: ${new Date(feedInfo.last_published).toLocaleString()}`;
+    } else {
+      status.textContent = "Last update: unavailable";
+    }
+
     const remove = document.createElement("button");
     remove.textContent = "Remove";
     remove.addEventListener("click", () => toggleSelection(feed.id));
 
     item.appendChild(title);
     item.appendChild(meta);
+    item.appendChild(status);
     item.appendChild(remove);
     elements.selectedList.appendChild(item);
   });
@@ -374,14 +415,14 @@ function clearFilters() {
  * @returns {void}
  */
 function shuffleUpdates() {
-  fetchUpdates();
+  fetchUpdates(true);
 }
 
 /**
  * Fetch live updates from the local server or fall back to demo items.
  * @returns {Promise<void>}
  */
-async function fetchUpdates() {
+async function fetchUpdates(force = false) {
   if (!state.selected.size) {
     renderUpdates();
     return;
@@ -389,12 +430,16 @@ async function fetchUpdates() {
 
   const ids = [...state.selected].join(",");
   try {
-    const response = await fetch(`/api/updates?ids=${encodeURIComponent(ids)}&limit=30`);
+    const response = await fetch(
+      `/api/updates?ids=${encodeURIComponent(ids)}&limit=30&force=${force ? "1" : "0"}`
+    );
     if (!response.ok) throw new Error("updates fetch failed");
     const payload = await response.json();
     state.items = payload.updates || [];
+    state.feedMeta = payload.feeds || {};
   } catch (error) {
     console.warn("Live updates unavailable, using demo items", error);
+    state.feedMeta = buildFeedMetaFromItems(state.items);
   }
 
   renderUpdates();
@@ -419,6 +464,7 @@ async function init() {
   state.tags = data.tags;
   state.regions = data.regions;
   state.items = items;
+  state.feedMeta = buildFeedMetaFromItems(items);
 
   state.sourceTypes = [...new Set(state.feeds.map((feed) => feed.source_type))].sort();
 

@@ -15,17 +15,23 @@
     "abc-au-news",
     "africanews",
     "al-jazeera-all",
-    "associated-press-top-news",
+    "bbc-top-news",
     "bbc-world",
     "cbc-world",
     "cnn-world",
     "france24-en",
-    "reuters-world",
+    "nytimes-homepage",
     "times-of-india-world"
+  ],
+  "agriculture": [
+    "agfunder-news"
+  ],
+  "food-systems": [
+    "agfunder-news"
   ],
   "global": [
     "al-jazeera-all",
-    "associated-press-top-news",
+    "bbc-top-news",
     "bbc-world",
     "cbc-world",
     "cnn-world",
@@ -33,8 +39,8 @@
     "france24-en",
     "guardian-world",
     "npr-world",
+    "nytimes-homepage",
     "nytimes-world",
-    "reuters-world",
     "the-hindu-international",
     "un-news",
     "who-news"
@@ -117,8 +123,7 @@
     "marketwatch-top"
   ],
   "economics": [
-    "ecb-press",
-    "oecd-development"
+    "ecb-press"
   ],
   "policy": [
     "ecb-press",
@@ -145,12 +150,6 @@
     "nature",
     "science-magazine",
     "sciencedaily"
-  ],
-  "agriculture": [
-    "fao-news"
-  ],
-  "food-systems": [
-    "fao-news"
   ],
   "ai": [
     "google-research",
@@ -180,9 +179,6 @@
     "spiegel-international",
     "the-hindu-international"
   ],
-  "development": [
-    "oecd-development"
-  ],
   "oil-gas": [
     "oilprice"
   ],
@@ -200,9 +196,13 @@
     "times-of-israel"
   ],
   "humanitarian": [
-    "un-news"
+    "un-news",
+    "unocha-news"
   ],
   "geopolitics": [
     "un-press"
+  ],
+  "development": [
+    "unocha-news"
   ]
 }

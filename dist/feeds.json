@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-13T17:04:05.766909Z",
+  "generated_at": "2026-01-13T18:07:07.792296Z",
   "categories": [
     {
       "id": "news_current_affairs",
@@ -867,6 +867,30 @@
       "region_name": "Africa"
     },
     {
+      "id": "agfunder-news",
+      "title": "AgFunderNews",
+      "site_url": "https://agfundernews.com/",
+      "feed_url": "https://agfundernews.com/feed",
+      "format": "rss",
+      "category": "agriculture_food_systems",
+      "tags": [
+        "agriculture",
+        "food-systems"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "Agriculture & Food Systems",
+      "tag_titles": [
+        "Agriculture",
+        "Food Systems"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
       "id": "al-jazeera-all",
       "title": "Al Jazeera - All News",
       "site_url": "https://www.aljazeera.com/",
@@ -939,30 +963,6 @@
       "region_name": "North America"
     },
     {
-      "id": "associated-press-top-news",
-      "title": "Associated Press Top News",
-      "site_url": "https://apnews.com/",
-      "feed_url": "https://apnews.com/apf-topnews",
-      "format": "rss",
-      "category": "news_current_affairs",
-      "tags": [
-        "breaking",
-        "global"
-      ],
-      "language": "en",
-      "region": "GLOBAL",
-      "source_type": "publisher",
-      "status": "active",
-      "added": "2026-01-08",
-      "category_title": "News & Current Affairs",
-      "tag_titles": [
-        "Breaking",
-        "Global"
-      ],
-      "language_name": "English",
-      "region_name": "Global"
-    },
-    {
       "id": "aviation-week",
       "title": "Aviation Week",
       "site_url": "https://aviationweek.com/",
@@ -1009,6 +1009,30 @@
       ],
       "language_name": "English",
       "region_name": "Europe"
+    },
+    {
+      "id": "bbc-top-news",
+      "title": "BBC News - Top Stories",
+      "site_url": "https://www.bbc.com/news",
+      "feed_url": "https://feeds.bbci.co.uk/news/rss.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
     },
     {
       "id": "bbc-world",
@@ -1395,30 +1419,6 @@
       "region_name": "Europe"
     },
     {
-      "id": "fao-news",
-      "title": "FAO News",
-      "site_url": "https://www.fao.org/",
-      "feed_url": "https://www.fao.org/feeds/news/en/rss.xml",
-      "format": "rss",
-      "category": "agriculture_food_systems",
-      "tags": [
-        "agriculture",
-        "food-systems"
-      ],
-      "language": "en",
-      "region": "GLOBAL",
-      "source_type": "government",
-      "status": "active",
-      "added": "2026-01-08",
-      "category_title": "Agriculture & Food Systems",
-      "tag_titles": [
-        "Agriculture",
-        "Food Systems"
-      ],
-      "language_name": "English",
-      "region_name": "Global"
-    },
-    {
       "id": "france24-en",
       "title": "France 24 - English",
       "site_url": "https://www.france24.com/en/",
@@ -1755,6 +1755,30 @@
       "region_name": "North America"
     },
     {
+      "id": "nytimes-homepage",
+      "title": "The New York Times - Home Page",
+      "site_url": "https://www.nytimes.com/",
+      "feed_url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+      "format": "rss",
+      "category": "news_current_affairs",
+      "tags": [
+        "global",
+        "breaking"
+      ],
+      "language": "en",
+      "region": "NA",
+      "source_type": "publisher",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "News & Current Affairs",
+      "tag_titles": [
+        "Global",
+        "Breaking"
+      ],
+      "language_name": "English",
+      "region_name": "North America"
+    },
+    {
       "id": "nytimes-world",
       "title": "The New York Times - World",
       "site_url": "https://www.nytimes.com/section/world",
@@ -1777,30 +1801,6 @@
       ],
       "language_name": "English",
       "region_name": "North America"
-    },
-    {
-      "id": "oecd-development",
-      "title": "OECD Development Matters",
-      "site_url": "https://oecdecoscope.blog/",
-      "feed_url": "https://oecdecoscope.blog/category/development/feed/",
-      "format": "rss",
-      "category": "international_development_aid",
-      "tags": [
-        "development",
-        "economics"
-      ],
-      "language": "en",
-      "region": "GLOBAL",
-      "source_type": "government",
-      "status": "active",
-      "added": "2026-01-08",
-      "category_title": "International Development & Aid",
-      "tag_titles": [
-        "Development",
-        "Economics"
-      ],
-      "language_name": "English",
-      "region_name": "Global"
     },
     {
       "id": "oilprice",
@@ -1849,30 +1849,6 @@
       ],
       "language_name": "English",
       "region_name": "North America"
-    },
-    {
-      "id": "reuters-world",
-      "title": "Reuters - World News",
-      "site_url": "https://www.reuters.com/world/",
-      "feed_url": "https://www.reuters.com/world/rss",
-      "format": "rss",
-      "category": "news_current_affairs",
-      "tags": [
-        "global",
-        "breaking"
-      ],
-      "language": "en",
-      "region": "GLOBAL",
-      "source_type": "publisher",
-      "status": "active",
-      "added": "2026-01-08",
-      "category_title": "News & Current Affairs",
-      "tag_titles": [
-        "Global",
-        "Breaking"
-      ],
-      "language_name": "English",
-      "region_name": "Global"
     },
     {
       "id": "science-magazine",
@@ -2206,6 +2182,30 @@
       "tag_titles": [
         "Environment",
         "Climate"
+      ],
+      "language_name": "English",
+      "region_name": "Global"
+    },
+    {
+      "id": "unocha-news",
+      "title": "UN OCHA - News",
+      "site_url": "https://www.unocha.org/",
+      "feed_url": "https://www.unocha.org/rss.xml",
+      "format": "rss",
+      "category": "international_development_aid",
+      "tags": [
+        "humanitarian",
+        "development"
+      ],
+      "language": "en",
+      "region": "GLOBAL",
+      "source_type": "government",
+      "status": "active",
+      "added": "2026-01-13",
+      "category_title": "International Development & Aid",
+      "tag_titles": [
+        "Humanitarian",
+        "Development"
       ],
       "language_name": "English",
       "region_name": "Global"

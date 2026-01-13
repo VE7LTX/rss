@@ -40,6 +40,12 @@ python -m http.server 8000
 python -m unittest discover -s tests
 ```
 
+## Health checks
+
+```bash
+python scripts/validate/validate.py --health
+```
+
 ## Seed feeds
 
 ```bash
