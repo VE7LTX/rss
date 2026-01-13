@@ -24,6 +24,13 @@ python -m http.server 8000
 
 Open `http://localhost:8000/public/index.html`.
 
+## Documentation
+
+- Setup and startup: `setup.md`
+- Feed schema: `docs/schema.md`
+- Prototype usage: `docs/prototype.md`
+- Roadmap and sequencing: `NEXT_STEPS.md`
+
 ## Project layout
 
 ```
@@ -52,6 +59,7 @@ C:\rss\
     app.js
   README.md
   NEXT_STEPS.md
+  setup.md
 ```
 
 ## Data model

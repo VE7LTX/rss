@@ -1,6 +1,6 @@
 # Feed Record Schema
 
-This document defines the minimum, required fields for each feed file in `data/feeds/`.
+This document defines the minimum required fields for each feed file in `data/feeds/`.
 
 ## Required Fields
 
@@ -29,6 +29,16 @@ This document defines the minimum, required fields for each feed file in `data/f
 | `homepage_language` | string | If different from feed language. |
 | `aliases` | list | Alternate feed URLs (if migrated or mirrored). |
 
+## Validation
+
+Run:
+
+```bash
+python scripts/validate/validate.py
+```
+
+The validator checks required fields, vocabulary membership, and duplicate IDs.
+
 ## Example
 
 ```yaml
@@ -51,5 +61,5 @@ added: "2026-01-08"
 ## File Naming
 
 - One feed per file.
-- File name should match the `id` (e.g., `example-news.yml`).
-- Place files in `data/feeds/` (optionally in subfolders by category later).
+- File name must match the `id` (for example, `example-news.yml`).
+- Place files in `data/feeds/`.

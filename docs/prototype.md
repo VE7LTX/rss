@@ -26,3 +26,4 @@ Open `http://localhost:8000/public/index.html`.
 
 - The "Live Updates" panel uses demo items generated during the build step.
 - Feed selections persist in local storage.
+- Re-run the build step after changing `data/`.
