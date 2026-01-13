@@ -2,6 +2,13 @@
 
 This document tracks sequencing for the MVP and beyond. Items marked done are complete in the current repo state.
 
+## Document header
+
+- Purpose: Track roadmap items and their completion status.
+- Audience: Maintainers and collaborators.
+- Scope: MVP pipeline, UI, live updates, and automation.
+- Last updated: 2026-01-13.
+
 ## 1) Controlled vocabularies (done)
 
 - Categories, tags, and locales are defined in `data/`.
@@ -37,16 +44,17 @@ This document tracks sequencing for the MVP and beyond. Items marked done are co
 - Seeded 60 feeds across 18 categories, 11 regions, and 7 source types.
 - Validation and build outputs updated to match the expanded dataset.
 
-## 8) Health checks (next)
+## 8) Health checks (done)
 
-- Add optional network validation (HTTP status, parse results, last item date).
-- Cache results to avoid throttling or rate limits.
+- Optional network validation implemented in `scripts/validate/validate.py --health`.
+- Supports `--health-timeout`, `--offset`, and `--limit` for batching.
+- Errors are reported per feed in the console output.
 
-## 9) Live updates MVP (next)
+## 9) Live updates MVP (done)
 
-- Replace demo items with real feed fetches.
-- Cache results locally and update on refresh.
-- Keep UI static and use a lightweight local service for fetching.
+- Local server fetches live RSS/Atom entries via `/api/updates`.
+- Cache stored in `cache/updates.json` with TTL and per-feed limits.
+- UI falls back to demo items when the server is offline.
 
 ## 10) CI and release hygiene (next)
 

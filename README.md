@@ -4,6 +4,14 @@ A structured registry of RSS/Atom/JSON feeds with rich metadata, designed to sca
 
 This project treats feeds as data, not bookmarks.
 
+## Document header
+
+- Purpose: Explain what the registry provides, how it is structured, and how to run the tooling.
+- Audience: Contributors curating feeds, developers integrating outputs, and operators running the prototype UI.
+- Scope: Feed metadata, validation/build pipeline, UI prototype, and live updates service.
+- Source of truth: `data/feeds/` plus vocabularies in `data/`.
+- Last updated: 2026-01-13.
+
 ## What you get
 
 - Curated feed metadata with controlled vocabularies (categories, tags, locales)
@@ -30,6 +38,8 @@ Static-only demo:
 ```bash
 python -m http.server 8000
 ```
+
+Note: the live updates panel only works when `scripts/server/server.py` is running.
 
 ## Current seed coverage
 
@@ -108,20 +118,28 @@ The RSS Encyclopedia UI is a static site in `public/` that loads data from `dist
 - Faceted filtering (category, tags, region, source type)
 - Search across metadata
 - Feed selection with local storage persistence
-- Demo "Live Updates" panel using generated items
+- Live updates panel that fetches real entries when the local server is running
 
 See `docs/prototype.md` for details.
+
+## Live updates service
+
+`scripts/server/server.py` serves static assets and a JSON API for live entries.
+
+- Endpoint: `/api/updates?ids=feed-a,feed-b&limit=30`
+- Optional: `force=1` bypasses the local cache.
+- Cache: `cache/updates.json` with a 10 minute TTL, capped at 10 items per feed and 30 total.
 
 ## Testing
 
 ```bash
-python -m unittest discover -s tests
+python -m pytest
 ```
 
 Optional health checks (network):
 
 ```bash
-python scripts/validate/validate.py --health
+python scripts/validate/validate.py --health --health-timeout 20
 ```
 
 ## Contributing

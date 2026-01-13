@@ -2,6 +2,13 @@
 
 Purpose: Define the required metadata for each feed record and keep validation consistent across the registry.
 
+## Document header
+
+- Purpose: Document the feed schema, constraints, and vocabulary references.
+- Audience: Contributors and maintainers.
+- Scope: Required fields, optional fields, and file layout rules.
+- Last updated: 2026-01-13.
+
 ## Required fields
 
 | Field | Type | Notes |
@@ -28,6 +35,12 @@ Purpose: Define the required metadata for each feed record and keep validation c
 | `last_verified` | string | Date of last validation check. |
 | `homepage_language` | string | If different from feed language. |
 | `aliases` | list | Alternate feed URLs (if migrated or mirrored). |
+
+## Vocabularies
+
+- Categories: `data/categories.yml`
+- Tags: `data/tags.yml`
+- Locales (language + region): `data/locales.yml`
 
 ## Validation
 
