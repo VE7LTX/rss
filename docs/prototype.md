@@ -1,6 +1,6 @@
-# Prototype Quickstart
+# The RSS Encyclopedia Quickstart
 
-Purpose: Run the static UI that loads generated registry outputs from `dist/`.
+Purpose: Run the static UI for The RSS Encyclopedia using outputs from `dist/`.
 
 ## Validate data
 

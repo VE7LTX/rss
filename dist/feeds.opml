@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <opml version="1.0">
   <head>
-    <title>RSS Registry</title>
+    <title>The RSS Encyclopedia</title>
   </head>
   <body>
     <outline text="Associated Press Top News" title="Associated Press Top News" type="rss" xmlUrl="https://apnews.com/apf-topnews" htmlUrl="https://apnews.com/" category="news_current_affairs" />

@@ -185,7 +185,7 @@ def build_opml(paths: BuildPaths, feeds: List[FeedRecord]) -> None:
             "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
             "<opml version=\"1.0\">",
             "  <head>",
-            "    <title>RSS Registry</title>",
+            "    <title>The RSS Encyclopedia</title>",
             "  </head>",
             "  <body>",
             *outlines,

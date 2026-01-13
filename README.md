@@ -1,4 +1,4 @@
-# RSS Registry & Feed Browser
+# The RSS Encyclopedia
 
 A structured registry of RSS/Atom/JSON feeds with rich metadata, designed to scale to hundreds or thousands of sources. It ships with validation tooling, deterministic build outputs, and a static prototype UI for faceted browsing.
 
@@ -9,7 +9,7 @@ This project treats feeds as data, not bookmarks.
 - Curated feed metadata with controlled vocabularies (categories, tags, locales)
 - Validation tooling to keep entries consistent
 - Build outputs (JSON, CSV, OPML, indexes)
-- A static prototype UI for filtering and previewing selections
+- A static UI for filtering and previewing selections
 - Unit tests to verify the core pipeline
 
 ## Quickstart
@@ -29,7 +29,7 @@ Open `http://localhost:8000/public/index.html`.
 
 - Setup and startup: `setup.md`
 - Feed schema: `docs/schema.md`
-- Prototype usage: `docs/prototype.md`
+- UI usage: `docs/prototype.md`
 - Testing guidance: `docs/testing.md`
 - Roadmap and sequencing: `NEXT_STEPS.md`
 
@@ -88,9 +88,9 @@ The build step generates deterministic outputs in `dist/`:
 - `indexes/*` for fast filtering
 - `items.json` demo items for the prototype UI
 
-## Prototype UI
+## The RSS Encyclopedia UI
 
-The prototype is a static site in `public/` that loads data from `dist/`. It supports:
+The RSS Encyclopedia UI is a static site in `public/` that loads data from `dist/`. It supports:
 - Faceted filtering (category, tags, region, source type)
 - Search across metadata
 - Feed selection with local storage persistence
