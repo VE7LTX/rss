@@ -20,10 +20,16 @@ Requirements: Python 3.9+.
 # From the repo root
 python scripts/validate/validate.py
 python scripts/build/build.py
-python -m http.server 8000
+python scripts/server/server.py
 ```
 
 Open `http://localhost:8000/public/index.html`.
+
+Static-only demo:
+
+```bash
+python -m http.server 8000
+```
 
 ## Current seed coverage
 

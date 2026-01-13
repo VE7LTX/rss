@@ -23,10 +23,16 @@ Outputs are written to `dist/`.
 ## Run the prototype UI
 
 ```bash
-python -m http.server 8000
+python scripts/server/server.py
 ```
 
 Open `http://localhost:8000/public/index.html`.
+
+Static-only demo:
+
+```bash
+python -m http.server 8000
+```
 
 ## Run tests
 

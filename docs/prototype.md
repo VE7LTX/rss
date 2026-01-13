@@ -17,13 +17,20 @@ python scripts/build/build.py
 ## View prototype
 
 ```bash
-python -m http.server 8000
+python scripts/server/server.py
 ```
 
 Open `http://localhost:8000/public/index.html`.
 
+Static-only demo:
+
+```bash
+python -m http.server 8000
+```
+
 ## Notes
 
-- The "Live Updates" panel uses demo items generated during the build step.
+- The "Live Updates" panel pulls live feed entries when the local server is running.
+- If the server is not running, the UI falls back to demo items from `dist/items.json`.
 - Feed selections persist in local storage.
 - Re-run the build step after changing `data/`.

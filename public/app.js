@@ -274,7 +274,7 @@ function toggleSelection(id) {
   saveSelected();
   renderFeeds();
   renderSelected();
-  renderUpdates();
+  fetchUpdates();
 }
 
 /**
@@ -323,7 +323,9 @@ function renderUpdates() {
   if (!display.length) {
     const empty = document.createElement("div");
     empty.className = "update-item";
-    empty.textContent = "Select feeds to preview demo updates.";
+    empty.textContent = state.selected.size
+      ? "No live updates available yet. Make sure the local server is running."
+      : "Select feeds to preview live updates.";
     elements.updatesList.appendChild(empty);
     return;
   }
@@ -372,7 +374,29 @@ function clearFilters() {
  * @returns {void}
  */
 function shuffleUpdates() {
-  state.items.sort(() => Math.random() - 0.5);
+  fetchUpdates();
+}
+
+/**
+ * Fetch live updates from the local server or fall back to demo items.
+ * @returns {Promise<void>}
+ */
+async function fetchUpdates() {
+  if (!state.selected.size) {
+    renderUpdates();
+    return;
+  }
+
+  const ids = [...state.selected].join(",");
+  try {
+    const response = await fetch(`/api/updates?ids=${encodeURIComponent(ids)}&limit=30`);
+    if (!response.ok) throw new Error("updates fetch failed");
+    const payload = await response.json();
+    state.items = payload.updates || [];
+  } catch (error) {
+    console.warn("Live updates unavailable, using demo items", error);
+  }
+
   renderUpdates();
 }
 
@@ -417,7 +441,7 @@ async function init() {
   renderTagBank();
   renderFeeds();
   renderSelected();
-  renderUpdates();
+  fetchUpdates();
 
   elements.statCount.textContent = `${state.feeds.length} feeds`;
   elements.statTags.innerHTML = state.categories
