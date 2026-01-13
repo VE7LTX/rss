@@ -1,192 +1,96 @@
-# The RSS Encyclopedia Registry & Feed Browser
+# RSS Registry & Feed Browser
 
-A structured, open registry of RSS / Atom / JSON feeds, designed to scale to **hundreds or thousands of sources**, with tooling to **browse, filter, and select feeds for live updates** on a personalized page.
+A structured registry of RSS/Atom/JSON feeds with rich metadata, designed to scale to hundreds or thousands of sources. It ships with validation tooling, deterministic build outputs, and a static prototype UI for faceted browsing.
 
-This project treats RSS feeds as **data**, not bookmarks.
+This project treats feeds as data, not bookmarks.
 
----
+## What you get
 
-## What This Is
+- Curated feed metadata with controlled vocabularies (categories, tags, locales)
+- Validation tooling to keep entries consistent
+- Build outputs (JSON, CSV, OPML, and indexes)
+- A static prototype UI for filtering and previewing selections
 
-- A curated catalog of RSS feeds with rich metadata
-- A navigation layer that makes large feed collections usable
-- A foundation for building a browser-like experience for RSS
-- Exportable to common formats (OPML, JSON, CSV)
+## Quickstart
 
-Users don’t scroll endless lists.  
-They filter, select, and subscribe.
+Requirements: Python 3.9+.
 
----
+```bash
+# From the repo root
+python scripts/validate/validate.py
+python scripts/build/build.py
+python -m http.server 8000
+```
 
-## What This Is Not
+Open `http://localhost:8000/public/index.html`.
 
-- Not a feed reader replacement (yet)
-- Not a scraper or content mirror
-- Not an algorithmic ranking engine
-- Not tied to any single UI or platform
-
-This repo provides structure and truth.  
-Readers, dashboards, and apps consume it.
-
----
-
-## Core Idea
-
-Instead of folders and long lists, feeds are navigated using facets:
-
-- Category (what domain it belongs to)
-- Tags (what it’s about)
-- Region / Locale (where it’s relevant)
-- Source Type (who publishes it)
-- Activity / Health (how alive it is)
-
-This allows users to do things like:
-
-- “AI + policy + Europe”
-- “Cybersecurity + government + active”
-- “Local news + Canada”
-- “Academic research + climate”
-
----
-
-## Intended User Experience (High Level)
-
-1. User browses feeds using filters
-2. User selects a small set of feeds
-3. Selected feeds appear on a live updates page
-4. Updates refresh without reloading the entire catalog
-
-Think:
-“A browser for RSS feeds, not a dumping ground.”
-
----
-
-## Repository Structure
+## Project layout
 
 ```
-rss-registry/
-  data/
-    feeds/
+C:\rss\
+  data\
+    feeds\
     categories.yml
     tags.yml
     locales.yml
-  docs/
+  docs\
     schema.md
-  scripts/
-    validate/
-    build/
-  dist/
+    prototype.md
+  scripts\
+    lib\
+    validate\
+    build\
+  dist\
     feeds.opml
     feeds.json
     feeds.csv
-    indexes/
+    items.json
+    indexes\
+  public\
+    index.html
+    styles.css
+    app.js
   README.md
-  CONTRIBUTING.md
   NEXT_STEPS.md
 ```
 
----
+## Data model
 
-## Feed Metadata Model (Simplified)
+Each feed record is stored as one YAML file in `data/feeds/` and follows the schema in `docs/schema.md`.
 
-Each feed includes:
-
-- Title and site URL
-- Feed URL and format
-- Primary category
-- Multiple tags
-- Region and language
-- Source type (publisher, academic, gov, etc.)
-- Activity status (derived, not manual)
-
-Feeds are filterable, comparable, and auditable.
-
-Full schema details: [`docs/schema.md`](docs/schema.md).
-
----
-
-## Navigation Model
-
-Feeds are explored using orthogonal filters, not nesting:
-
-- Category (single-select)
-- Tags (multi-select)
-- Region / Locale
-- Source Type
-- Activity Status
-
-Lists are intentionally short.  
-Counts and context are always shown.
-
----
+Required fields include:
+- `id`, `title`, `site_url`, `feed_url`, `format`
+- `category`, `tags`, `language`, `region`
+- `source_type`, `status`, `added`
 
 ## Outputs
 
-The registry generates:
+The build step generates deterministic outputs in `dist/`:
 
-- OPML for feed readers
-- JSON for apps and dashboards
-- CSV for analysis
-- Precomputed indexes for fast filtering
+- `feeds.json` for apps/dashboards
+- `feeds.csv` for analysis
+- `feeds.opml` for feed readers
+- `indexes/*` for fast filtering
+- `items.json` demo items for the prototype UI
 
-All outputs are deterministic and reproducible.
+## Prototype UI
 
----
+The prototype is a static site in `public/` that loads data from `dist/`. It supports:
+- Faceted filtering (category, tags, region, source type)
+- Search across metadata
+- Feed selection with local storage persistence
+- Demo "Live Updates" panel using generated items
 
-## Why This Exists
+See `docs/prototype.md` for details.
 
-Most RSS lists fail because they:
-- Become unmaintainable
-- Collapse under scale
-- Assume users want everything
-- Treat feeds like bookmarks instead of sources
-
-This project assumes:
-- Users want signal
-- Trust varies by source
-- Geography matters
-- Activity matters
-- Control beats algorithms
-
----
-
-## Contribution Philosophy
+## Contributing
 
 - One feed per file
-- Clear metadata over clever naming
-- No affiliate links
-- Prefer official feeds
-- Validation is automated
-- Humans curate, machines verify
+- Use the controlled vocabularies in `data/`
+- Run validation before submitting changes
 
-See CONTRIBUTING.md for details.
-
----
-
-## Status
-
-Early structure and taxonomy phase.  
-Focus is on getting the model right before building UI.
-
----
-
-## Next Steps
-
-Detailed notes for the next milestones live in [`NEXT_STEPS.md`](NEXT_STEPS.md).
-
----
-
-## Roadmap (High Level)
-
-- Finalize global category and tag sets
-- Seed with high-signal feeds
-- Automated validation and health checks
-- Static browsing UI
-- User-selectable live feed views
-
----
+More guidance: `NEXT_STEPS.md`.
 
 ## License
 
-Open and permissive.  
-Details TBD.
+Open and permissive. Details TBD.
